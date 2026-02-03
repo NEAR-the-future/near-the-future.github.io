@@ -46,80 +46,76 @@
    NEAR Lab – Research Cards
    ========================= */
 
-   .research-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
-    margin-top: 3rem;
-  }
-  
-  .research-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 14px;
-    height: 320px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    cursor: pointer;
-  }
-  
-  .research-card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s ease;
-  }
-  
-  .research-card:hover img {
-    transform: scale(1.08);
-  }
-  
-  /* Overlay */
-  .research-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(15, 15, 15, 0.75);
-    color: white;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    padding: 2rem;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .research-card:hover .research-overlay {
-    opacity: 1;
-  }
-  
-  /* Typography cleanup */
-  .research-overlay h3 {
-    font-size: 1.4rem;
-    margin-bottom: 0.75rem;
-    font-weight: 600;
-  }
-  
-  .research-overlay p {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    color: #eaeaea;
-  }
-  
-  .research-overlay span {
-    font-size: 0.8rem;
-    opacity: 0.85;
-    letter-spacing: 0.03em;
-  }
-  
-  /* Mobile */
-  @media (max-width: 900px) {
-    .research-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    .research-card {
-      height: 260px;
-    }
-  }
+   /* Research Grid Layout */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+/* Research Panel */
+.research-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+/* Image */
+.research-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* Hover zoom (subtle) */
+.research-panel:hover img {
+  transform: scale(1.05);
+}
+
+/* Overlay */
+.research-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.94);
+  padding: 1.5rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Reveal on hover */
+.research-panel:hover .research-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Text Styling */
+.research-overlay h3 {
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.research-overlay p {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+  color: #444;
+}
+
+.research-overlay ul {
+  padding-left: 1.1rem;
+  font-size: 0.9rem;
+}
+
+.research-overlay li {
+  margin-bottom: 0.4rem;
+}
+
   
