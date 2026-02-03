@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Research"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: research
@@ -60,4 +60,4 @@ Ongoing & Future Directions
 Our research continues to expand toward:
 - tighter integration of **neuromorphic hardware and robotic platforms**
 - **co-design** of body, controller, and learning mechanisms
-- experimental studies of **development, adaptation, and evolution** in robots
+- experimental studies of **development, adaptation, and evolution** in robots -->

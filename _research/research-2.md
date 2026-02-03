@@ -1,8 +1,8 @@
----
+<!-- ---
 title: "Research"
 # permalink: /research/
 author_profile: true
----
+--- -->
 
 At the **NEAR Lab**, our research centers on **neuro-embodied adaptive robotics**—robotic systems in which intelligence emerges from the interaction between **neural mechanisms, physical bodies, and the environment**.
 
