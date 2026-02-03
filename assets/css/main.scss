@@ -260,45 +260,47 @@
    NEAR Lab – Homepage Button (Share this page)
    ========================= */
 
-.homepage-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 1.5rem 0 2rem;
-}
-
-.homepage-buttons .btn {
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.3s, color 0.3s;
-}
-
-.btn-primary {
-  background-color: #007acc;
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: #005f99;
-}
-
-.btn-secondary {
-  background-color: #de7a2e;
-  color: white;
-}
-
-.btn-secondary:hover {
-  background-color: #d36715;
-}
-
-.btn-tertiary {
-  background-color: #2c862a;
-  color: white;
-}
-
-.btn-tertiary:hover {
-  background-color: #136c11;
-  color: white;
-}
+   .homepage-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+  
+  /* Base button style */
+  .homepage-buttons .btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+    color: white;
+  }
+  
+  /* Blue Button - Research */
+  .btn-primary {
+    background-color: #1e6bb8; /* elegant, soft blue */
+  }
+  
+  .btn-primary:hover {
+    background-color: #145a9e; /* slightly darker on hover */
+  }
+  
+  /* Orange Button - People */
+  .btn-secondary {
+    background-color: #e07b39; /* elegant orange */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #c86828; /* darker on hover */
+  }
+  
+  /* Green Button - Share */
+  .btn-tertiary {
+    background-color: #3c9d5d; /* soft, elegant green */
+  }
+  
+  .btn-tertiary:hover {
+    background-color: #2e7b47; /* darker on hover */
+  }
+  
