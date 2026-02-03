@@ -11,6 +11,12 @@ Intelligence does not live in algorithms alone. It emerges from **bodies, brains
 
 At the NEAR Lab, we study how intelligent behavior arises from the tight coupling of neural systems, data-driven control, and physical embodiment in robotic systems. By integrating bio-inspired morphology, neurorobotics, and lifelong learning, we aim to build robots that learn, adapt, and evolve through real physical interaction.
 
+<div class="homepage-buttons">
+  <a href="https://near-the-future.github.io/research/" class="btn btn-primary">Explore Research</a>
+  <a href="https://near-the-future.github.io/people/" class="btn btn-secondary">Meet the Team</a>
+  <a href="#" onclick="navigator.clipboard.writeText(window.location.href); alert('Page URL copied!');" class="btn btn-tertiary">Share This Page</a>
+</div>
+
 ---
 
 # Our Approach
