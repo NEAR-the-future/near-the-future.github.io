@@ -11,8 +11,8 @@ We pursue an integrated approach spanning **robot design, modeling, control, and
 
 ---
 
-## Bio-Inspired & Flapping-Wing Robotics 🦋
-
+Bio-Inspired & Flapping-Wing Robotics 🦋
+======
 We study flying and locomoting systems inspired by insects and animals to uncover fundamental principles of embodied intelligence.
 
 Our work includes:
@@ -22,10 +22,8 @@ Our work includes:
 
 These systems serve both as **engineering artifacts** and as **physical testbeds** for studying embodied intelligence.
 
----
-
-## Neuro-Embodied & Neuromorphic Systems 🧠
-
+Neuro-Embodied & Neuromorphic Systems 🧠
+======
 We explore neural principles of control and learning grounded in physical robotic systems.
 
 Topics include:
@@ -35,10 +33,8 @@ Topics include:
 
 Our goal is to move beyond disembodied computation toward **neural systems shaped by physical interaction**.
 
----
-
-## Adaptive & Lifelong Learning 🔁
-
+Adaptive & Lifelong Learning 🔁
+======
 Rather than learning from static datasets, we focus on robots that **learn continuously through experience**.
 
 We investigate:
@@ -48,10 +44,8 @@ We investigate:
 
 Learning is treated as a **developmental process**, unfolding over time through interaction.
 
----
-
-## Modeling, Dynamics & Control ⚙️
-
+Modeling, Dynamics & Control ⚙️
+======
 Rigorous modeling and control theory underpin our experimental work.
 
 Our research includes:
@@ -61,10 +55,8 @@ Our research includes:
 
 These models enable both **understanding** and **design** of complex robotic behaviors.
 
----
-
-## Ongoing & Future Directions
-
+Ongoing & Future Directions
+======
 Our research continues to expand toward:
 - tighter integration of **neuromorphic hardware and robotic platforms**
 - **co-design** of body, controller, and learning mechanisms
