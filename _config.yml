@@ -239,9 +239,9 @@ collections:
   people:
     output: true
     permalink: /:collection/:path/
-  news:
-    output: true
-    permalink: /:collection/:path/
+  # news:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -317,15 +317,15 @@ defaults:
       author_profile: true
       share: false
       comment: true
-  # _news
-  - scope:
-      path: ""
-      type: news
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comment: true
+  # # _news
+  # - scope:
+  #     path: ""
+  #     type: news
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: false
+  #     comment: true
 
 # Sass/SCSS
 sass:

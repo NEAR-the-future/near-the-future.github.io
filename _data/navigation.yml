@@ -20,8 +20,8 @@ main:
   - title: "Resources"
     url: /resources/  
   
-  - title: "News"
-    url: /news/  
+  # - title: "News"
+  #   url: /news/  
     
   # - title: "Portfolio"
   #   url: /portfolio/
