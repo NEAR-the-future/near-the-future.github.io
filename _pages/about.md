@@ -66,7 +66,7 @@ See the [**Research**](https://near-the-future.github.io/research/) page for det
 
 </div> -->
 
-# News & Updates
+<!-- # News & Updates
 
 <div class="news-list">
 {% assign latest_news = site.news | sort: "date" | reverse | slice: 0,5 %}
@@ -84,7 +84,7 @@ See the [**Research**](https://near-the-future.github.io/research/) page for det
 
 <p style="text-align: right; margin-top: 0.5rem;">
   <a href="/news/">View all updates →</a>
-</p>
+</p> -->
 
 ---
 
