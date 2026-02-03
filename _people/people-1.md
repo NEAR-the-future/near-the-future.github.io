@@ -95,8 +95,8 @@ We value curiosity, rigor, and building systems that learn through real interact
     background, interests, and goals.
   </p>
 
-  <p class="join-note">
+  <!-- <p class="join-note">
     We welcome Ph.D., Master’s, undergraduate researchers, and visiting students.
-  </p>
+  </p> -->
 </section>
 
