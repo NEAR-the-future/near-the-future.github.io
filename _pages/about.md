@@ -34,7 +34,7 @@ Our research focuses on **bio-inspired robotics and embodied intelligence**, inc
 
 # Join Us
 
-We welcome **students, postdocs, and collaborators** interested in building robots that **learn through their bodies** and **adapt through interaction**. If you are excited about bio-inspired robotics, neurorobotics, and embodied intelligence, we would be happy to hear from you.
+We welcome **students, postdocs, and collaborators** interested in building robots that **learn through their bodies** and **adapt through interaction**. If you are excited about bio-inspired robotics, neurorobotics, and embodied intelligence, please contact us via *weibin_gu@yeah.net* and we would be happy to hear from you.
 
 ---
 
