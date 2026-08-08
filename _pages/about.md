@@ -38,7 +38,7 @@ redirect_from:
   <div>
     <h2>Who We Are</h2>
     <p class="home-section__lead">
-      NEAR is a robotics lab working at the intersection of embodied intelligence, bio-inspired robotics, dynamics, control, and machine learning.
+      NEAR is a robotics lab working at the intersection of bio-inspired robotics, dynamics, control, and machine learning. We ponder:
     </p>
     <p class="home-question">&ldquo;How can a robot's body become part of its intelligence?&rdquo;</p>
   </div>
@@ -49,7 +49,7 @@ redirect_from:
   <div>
     <h2>What We Do</h2>
     <p>
-      We study embodied and adaptive intelligence across robot morphology, sensing, nonlinear dynamics, modeling, system identification, control, neuromorphic computation, online adaptation, and lifelong learning.
+      We study embodied intelligence across robot morphology, sensing, nonlinear dynamics, system identification, control, neuromorphic computing, online adaptation, and lifelong learning.
     </p>
 
     <div class="home-pillar-grid">
@@ -123,7 +123,7 @@ redirect_from:
       </article>
       <article>
         <h3>Learning meets physics.</h3>
-        <p>We combine data-driven intelligence with physical models, dynamics, and prior structure rather than treating robots as black boxes.</p>
+        <p>We combine data-driven methods with physical models and domain knowledge rather than treating robots as black boxes.</p>
       </article>
       <article>
         <h3>Robots should keep adapting.</h3>
@@ -135,7 +135,7 @@ redirect_from:
       </article>
       <article>
         <h3>Breakthroughs cross boundaries.</h3>
-        <p>Important robotics problems live between mechanics, control, AI, neuroscience, materials, and biology.</p>
+        <p>Challenging robotics problems live between mechanics, control, machine learning, neuroscience, materials, and biology.</p>
       </article>
     </div>
   </div>
