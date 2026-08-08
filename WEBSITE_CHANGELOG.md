@@ -2,6 +2,8 @@
 
 ## 2026-08-08
 
+- Added a timestamp query to the main stylesheet URL so browsers fetch the latest homepage CSS after deployment.
+- Strengthened homepage CSS for the requested hero image, larger section numbers, timeline layout, vertical values list, and matched section-05 paragraph style.
 - Updated the homepage hero to use `images/Image_20260424_215652.png`.
 - Reworked the homepage News block into a titled bullet-list format with single-line announcements.
 - Added quote styling to the homepage guiding question, enlarged section numbers, changed What We Value to a vertical list, redesigned How We Get There as a timeline, and normalized typography in the final vision section.
