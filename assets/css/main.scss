@@ -43,6 +43,264 @@
 ;
 
 /* =========================
+   NEAR Lab – Homepage Manifesto
+   ========================= */
+
+.home-hero {
+  position: relative;
+  min-height: clamp(420px, 58vh, 620px);
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 2rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  overflow: hidden;
+  border-radius: 8px;
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(9, 21, 31, 0.88), rgba(9, 21, 31, 0.66) 46%, rgba(9, 21, 31, 0.22)),
+    url("/images/research/flapping_wing_robotics.jpg") center / cover no-repeat;
+}
+
+.home-hero__content {
+  max-width: 760px;
+}
+
+.home-eyebrow {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-hero h1 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  line-height: 0.9;
+}
+
+.home-hero__claim {
+  max-width: 780px;
+  margin: 0.9rem 0 0;
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.18;
+}
+
+.home-hero__text {
+  max-width: 690px;
+  margin: 1rem 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.home-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.3rem;
+}
+
+.home-hero__actions a {
+  display: inline-block;
+  padding: 0.62rem 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.54);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.home-hero__actions a:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-1px);
+}
+
+.home-latest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.65rem;
+  align-items: baseline;
+  margin: 0 0 2.2rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid #e1e6ec;
+  border-bottom: 1px solid #e1e6ec;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.home-latest__date {
+  color: #637083;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.home-section {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #e6ebf0;
+}
+
+.home-section h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.55rem, 3vw, 2.4rem);
+  line-height: 1.12;
+}
+
+.home-section p {
+  max-width: 830px;
+  font-size: 0.96rem;
+  line-height: 1.68;
+}
+
+.home-section__number {
+  margin: 0.2rem 0 0;
+  color: #2f6f8f;
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.home-section__lead {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+.home-question {
+  margin: 1rem 0 0;
+  color: #122537;
+  font-size: clamp(1.25rem, 2.8vw, 1.9rem) !important;
+  font-weight: 800;
+  line-height: 1.2 !important;
+}
+
+.home-pillar-grid,
+.home-principle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.9rem;
+  margin: 1.3rem 0;
+}
+
+.home-pillar,
+.home-principle-grid article {
+  padding: 1rem;
+  border: 1px solid #e1e6ec;
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.home-pillar h3,
+.home-principle-grid h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.98rem;
+  line-height: 1.28;
+}
+
+.home-pillar p,
+.home-principle-grid p {
+  margin: 0;
+  color: #4b5b6d;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.home-platform-note {
+  margin: 1.15rem 0 0;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid #b45f38;
+  border-radius: 0 8px 8px 0;
+  background: #f8fafb;
+}
+
+.home-inline-link {
+  margin: 0.9rem 0 0;
+  font-weight: 800;
+}
+
+.home-pipeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 1.25rem 0;
+  border: 1px solid #dce3ea;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.home-pipeline article {
+  position: relative;
+  min-height: 170px;
+  padding: 1rem;
+  background: #fbfcfd;
+  border-right: 1px solid #dce3ea;
+}
+
+.home-pipeline article:last-child {
+  border-right: 0;
+}
+
+.home-pipeline span {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: #2f6f8f;
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-pipeline p {
+  margin: 0;
+  color: #405166;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.home-method-line {
+  margin-top: 0.8rem;
+  font-weight: 700;
+}
+
+.home-section--future {
+  margin-top: 0.8rem;
+  padding: clamp(2rem, 5vw, 3rem);
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background: linear-gradient(135deg, #102739, #244f67 58%, #6d5b4a);
+}
+
+.home-section--future .home-section__number,
+.home-section--future h2,
+.home-section--future p {
+  color: #fff;
+}
+
+.home-manifesto {
+  margin-top: 1.2rem;
+  font-size: clamp(1.15rem, 2.6vw, 1.65rem) !important;
+  font-weight: 800;
+  line-height: 1.28 !important;
+}
+
+.home-signoff {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.78) !important;
+  font-size: 0.9rem !important;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* =========================
    NEAR Lab – Research Cards
    ========================= */
 
@@ -591,6 +849,38 @@
 }
 
 @media (max-width: 640px) {
+  .home-hero {
+    min-height: 500px;
+    padding: 1.4rem;
+    background:
+      linear-gradient(180deg, rgba(9, 21, 31, 0.86), rgba(9, 21, 31, 0.68)),
+      url("/images/research/flapping_wing_robotics.jpg") center / cover no-repeat;
+  }
+
+  .home-section {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+    padding: 2rem 0;
+  }
+
+  .home-section__number {
+    margin-top: 0;
+  }
+
+  .home-pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .home-pipeline article {
+    min-height: 0;
+    border-right: 0;
+    border-bottom: 1px solid #dce3ea;
+  }
+
+  .home-pipeline article:last-child {
+    border-bottom: 0;
+  }
+
   .news-item {
     grid-template-columns: 1fr;
     gap: 0.25rem;
@@ -619,6 +909,39 @@
 }
 
 html[data-theme="dark"] {
+  .home-latest,
+  .home-section,
+  .home-pillar,
+  .home-principle-grid article,
+  .home-platform-note,
+  .home-pipeline,
+  .home-pipeline article {
+    border-color: #334252;
+  }
+
+  .home-pillar,
+  .home-principle-grid article,
+  .home-platform-note,
+  .home-pipeline article {
+    background: #1f2832;
+  }
+
+  .home-section__number,
+  .home-pipeline span {
+    color: #68a3c0;
+  }
+
+  .home-question {
+    color: #e6edf3;
+  }
+
+  .home-latest__date,
+  .home-pillar p,
+  .home-principle-grid p,
+  .home-pipeline p {
+    color: #c1cad4;
+  }
+
   .research-panel,
   .person-card,
   .paper-spotlight {
@@ -671,5 +994,11 @@ html[data-theme="dark"] {
   .news-badge {
     background: #d1794d;
     color: #111820;
+  }
+
+  @media (max-width: 640px) {
+    .home-pipeline article {
+      border-bottom-color: #334252;
+    }
   }
 }

@@ -2,6 +2,8 @@
 
 ## 2026-08-08
 
+- Rebuilt the homepage as a compact NEAR Lab manifesto with a strong hero, five numbered sections, research pillars, Build-Understand-Learn-Adapt pipeline, principles, and final vision statement.
+- Added responsive and dark-mode styling for the redesigned homepage.
 - Removed the auto-generated recommended citation/download footer from the Koopman paper detail page.
 - Tightened the People page introduction around the lab's multidisciplinary, multicultural team culture and shared belief in team-based success.
 - Rewrote the Join NEAR Lab section to clarify expectations for curiosity, real-system iteration, academic record, matched skills, and application materials.
