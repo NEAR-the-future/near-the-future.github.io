@@ -2,6 +2,7 @@
 
 ## 2026-08-08
 
+- Removed the visual separator between team names and roles while preserving wider inline spacing.
 - Updated PI biography formatting for <em>cum laude</em> and linked Prof. Alessandro Rizzo; widened team name/role separator spacing.
 - Placed team roles inline beside names, widened the Join NEAR Lab text block, and added an AirPulse placeholder video demo to Featured Research.
 - Enlarged homepage section numbers to match section title scale and widened the What We Value label column.
