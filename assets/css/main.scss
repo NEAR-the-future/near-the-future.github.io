@@ -47,13 +47,14 @@
    ========================= */
 
 @media (min-width: 64em) {
-  #main:has(.home-hero) {
+  #main:has(.sidebar) {
     max-width: min(1480px, calc(100vw - 2rem));
     padding-right: clamp(1rem, 2.2vw, 2rem);
     padding-left: clamp(1rem, 2.2vw, 2rem);
   }
 
-  #main:has(.home-hero) .page {
+  #main:has(.sidebar) .page,
+  #main:has(.sidebar) .archive {
     float: none;
     width: auto;
     margin-left: clamp(220px, 18vw, 270px);
@@ -61,9 +62,9 @@
     padding-left: 0;
   }
 
-  #main:has(.home-hero) .page__inner-wrap,
-  #main:has(.home-hero) .page__content,
-  #main:has(.home-hero) .page__meta {
+  #main:has(.sidebar) .page__inner-wrap,
+  #main:has(.sidebar) .page__content,
+  #main:has(.sidebar) .page__meta {
     width: 100%;
   }
 
@@ -211,10 +212,10 @@
 .home-section__number {
   margin: 0.04rem 0 0;
   color: #2f6f8f;
-  font-size: clamp(1.6rem, 3vw, 2.35rem);
+  font-size: clamp(1.55rem, 3vw, 2.4rem);
   font-weight: 900;
   letter-spacing: 0;
-  line-height: 1;
+  line-height: 1.12;
 }
 
 .home-section__lead {
@@ -361,7 +362,7 @@
 
 .home-principle-grid article {
   display: grid;
-  grid-template-columns: minmax(180px, 0.36fr) minmax(0, 1fr);
+  grid-template-columns: minmax(260px, 0.44fr) minmax(0, 1fr);
   gap: clamp(0.8rem, 2vw, 1.5rem);
   padding: 1rem 0;
   border-bottom: 1px solid #e1e6ec;

@@ -16,7 +16,7 @@ redirect_from:
       We explore how physical embodiment, neural computation, control, and environmental interaction can work together to create robots that are more adaptive, efficient, and capable in the physical world.
     </p>
     <div class="home-hero__actions">
-      <a href="/research/">Explore Our Research</a>
+      <a href="/research/">Explore Featured Research</a>
       <a href="/people/">Meet the Team</a>
     </div>
   </div>
@@ -75,7 +75,7 @@ redirect_from:
       Flapping-wing robots are one of our flagship testbeds. Their aerodynamics, compliant structures, sensing, actuation, and control are inseparably coupled, making them ideal systems for studying embodied intelligence under real physical constraints.
     </p>
 
-    <p class="home-inline-link"><a href="/research/">Explore Our Research &rarr;</a></p>
+    <p class="home-inline-link"><a href="/research/">Explore Our Featured Research &rarr;</a></p>
   </div>
 </section>
 

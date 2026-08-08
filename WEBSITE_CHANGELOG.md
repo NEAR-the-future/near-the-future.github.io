@@ -2,6 +2,9 @@
 
 ## 2026-08-08
 
+- Enlarged homepage section numbers to match section title scale and widened the What We Value label column.
+- Renamed Research navigation/page language to Featured Research, cleared the current Featured Research page body, and updated homepage research links.
+- Standardized sidebar-page content width across page and archive layouts while keeping the left lab profile panel.
 - Updated People page team cards with rounded-square portraits and a name/position top row with responsibility below.
 - Removed bullet markers from the homepage News announcement list.
 - Added a timestamp query to the main stylesheet URL so browsers fetch the latest homepage CSS after deployment.
