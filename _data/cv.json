@@ -30,7 +30,9 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+
+  ],
   "education": [
     {
       "institution": "GitHub University",
@@ -39,7 +41,9 @@
       "startDate": "",
       "endDate": "2018",
       "gpa": null,
-      "courses": []
+      "courses": [
+
+      ]
     },
     {
       "institution": "GitHub University",
@@ -48,7 +52,9 @@
       "startDate": "",
       "endDate": "2014",
       "gpa": null,
-      "courses": []
+      "courses": [
+
+      ]
     },
     {
       "institution": "GitHub University",
@@ -57,41 +63,30 @@
       "startDate": "",
       "endDate": "2012",
       "gpa": null,
-      "courses": []
+      "courses": [
+
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "skills": [
+
+  ],
+  "languages": [
+
+  ],
+  "interests": [
+
+  ],
+  "references": [
+
+  ],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Koopman Identification of Nonlinear Systems via Reservoir Liftings",
+      "publisher": "IEEE Control Systems Letters",
+      "releaseDate": "2026-01-01",
+      "website": "https://ieeexplore.ieee.org/document/11547162",
+      "summary": "Koopman identification of nonlinear systems using reservoir liftings."
     }
   ],
   "presentations": [

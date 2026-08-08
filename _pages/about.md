@@ -44,18 +44,16 @@ See the [**Research**](/research/) page for details.
 <div class="news-list">
 
   <div class="news-item">
-    <span class="news-date">2026</span>
+    <span class="news-date">Jan 2026</span>
     <p class="news-text">
-      <strong>Publication:</strong>
-      Gu, Weibin, Chen Yang, and Lu Shi.
-      <a href="/publication/2026-01-01-koopman-identification-reservoir-liftings">"Koopman Identification of Nonlinear Systems via Reservoir Liftings."</a>
-      <em>IEEE Control Systems Letters</em> (2026).
+      <span class="news-badge">NEW!</span>
+      New paper comes out:
+      <a href="https://ieeexplore.ieee.org/document/11547162">"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</a>
+      in <em>IEEE Control Systems Letters</em>. Congratulations to all the coauthors!
     </p>
   </div>
 
 </div>
-
-<p class="updates-more"><a href="/publications/">View publications</a></p>
 
 ---
 

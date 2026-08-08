@@ -13,25 +13,37 @@ author_profile: true
 
 {% assign publications_by_date = site.publications | sort: "date" | reverse %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
+{% for category in site.publication_category %}
+  <h2>{{ category[1].title }}</h2>
+  <div class="scholar-list">
+    {% assign has_publications = false %}
     {% for post in publications_by_date %}
-      {% if post.category != category[0] %}
-        {% continue %}
+      {% if post.category == category[0] %}
+        {% assign has_publications = true %}
+        <article class="scholar-item publication-item">
+          <h3 class="scholar-title">
+            <a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a>
+          </h3>
+          {% if post.authors %}
+            <p class="scholar-authors">{{ post.authors }}</p>
+          {% endif %}
+          <p class="scholar-venue">
+            {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+            {% if post.date %}<span>{{ post.date | date: "%Y" }}</span>{% endif %}
+          </p>
+          {% if post.excerpt %}
+            <p class="scholar-excerpt">{{ post.excerpt }}</p>
+          {% endif %}
+          <p class="scholar-links">
+            {% if post.paperurl %}<a href="{{ post.paperurl }}">Publisher</a>{% endif %}
+            <a href="{{ base_path }}{{ post.url }}">Details</a>
+            {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+          </p>
+        </article>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in publications_by_date %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
+    {% unless has_publications %}
+      <p class="scholar-empty">No entries listed yet.</p>
+    {% endunless %}
+  </div>
+{% endfor %}

@@ -2,6 +2,15 @@
 
 ## 2026-08-08
 
+- Restored the light/dark mode toggle in the masthead and re-enabled the source JavaScript click handler.
+- Updated the Koopman identification publication to link to IEEE Xplore.
+- Reworked homepage Updates into a news announcement format with a latest-news `NEW!` marker and month.
+- Removed the homepage "View publications" quick link.
+- Replaced placeholder publication entries with a Google Scholar-style publication list while keeping Journal Articles and Conference Papers sections.
+- Replaced placeholder publication data in the optional JSON CV source with the Koopman paper.
+- Reworked the Resources page into the same Scholar-style list format.
+- Refined the People page Team markup for cleaner, more consistent card styling.
+- Added dark-mode styling for custom NEAR Lab cards, lists, and news components.
 - Added the 2026 IEEE Control Systems Letters publication, "Koopman Identification of Nonlinear Systems via Reservoir Liftings," as a Jekyll publication entry.
 - Updated the Publications page to sort publication entries by date in reverse chronological order.
 - Fixed the Publications navigation link to point to `/publications/`.

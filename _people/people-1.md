@@ -34,97 +34,97 @@ We value curiosity, rigor, and building systems that learn through real interact
 
 <h2>Team</h2>
 
-<div class="people-grid">
+<div class="people-grid team-grid">
 
   <!-- Member -->
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Chenrui Feng</h2>
-    <p class="person-role">Research Engineer</p>
-    <p class="person-interest">
-      Embedded systems, modeling, control
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Chenrui Feng">
+    <div class="person-card__body">
+      <h3>Chenrui Feng</h3>
+      <p class="person-role">Research Engineer</p>
+      <p class="person-interest">Embedded systems, modeling, control</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Xingchi Jiao</h2>
-    <p class="person-role">Research Engineer</p>
-    <p class="person-interest">
-      Embedded systems, neuromorphic control, FPGA architecture
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Xingchi Jiao">
+    <div class="person-card__body">
+      <h3>Xingchi Jiao</h3>
+      <p class="person-role">Research Engineer</p>
+      <p class="person-interest">Embedded systems, neuromorphic control, FPGA architecture</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_female.jpg" alt="Student Name">
-    <h2>Rim El Filali</h2>
-    <p class="person-role">Master's Student</p>
-    <p class="person-interest">
-      Neuromorphic control, machine learning, neural computation
-    </p>
+    <img src="/images/people/people_placeholder_female.jpg" alt="Rim El Filali">
+    <div class="person-card__body">
+      <h3>Rim El Filali</h3>
+      <p class="person-role">Master's Student</p>
+      <p class="person-interest">Neuromorphic control, machine learning, neural computation</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_female.jpg" alt="Student Name">
-    <h2>Lian Liu</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Mechanical design, CFD, aircraft prototyping
-    </p>
+    <img src="/images/people/people_placeholder_female.jpg" alt="Lian Liu">
+    <div class="person-card__body">
+      <h3>Lian Liu</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Mechanical design, CFD, aircraft prototyping</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Chaolai Da</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Electronic design, FPGA architecture, hardware simulation
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Chaolai Da">
+    <div class="person-card__body">
+      <h3>Chaolai Da</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Electronic design, FPGA architecture, hardware simulation</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Chun Zhang</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Spiking neural networks, online learning
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Chun Zhang">
+    <div class="person-card__body">
+      <h3>Chun Zhang</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Spiking neural networks, online learning</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Hengyang Li</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Aerodynamics, CFD, aircraft prototyping
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Hengyang Li">
+    <div class="person-card__body">
+      <h3>Hengyang Li</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Aerodynamics, CFD, aircraft prototyping</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Yuxuan Wang</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Aerodynamics, mechanical design, aircraft prototyping
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Yuxuan Wang">
+    <div class="person-card__body">
+      <h3>Yuxuan Wang</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Aerodynamics, mechanical design, aircraft prototyping</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Alberto Bellagamba</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Reinforcement learning, simulator
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Alberto Bellagamba">
+    <div class="person-card__body">
+      <h3>Alberto Bellagamba</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Reinforcement learning, simulator</p>
+    </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Student Name">
-    <h2>Chen Yang</h2>
-    <p class="person-role">Research Intern</p>
-    <p class="person-interest">
-      Embedded systems, modeling, software
-    </p>
+    <img src="/images/people/people_placeholder_male.jpg" alt="Chen Yang">
+    <div class="person-card__body">
+      <h3>Chen Yang</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Embedded systems, modeling, software</p>
+    </div>
   </div>
 
 </div>

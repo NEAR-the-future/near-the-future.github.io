@@ -7,16 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="resource-grid">
+<div class="scholar-list resources-list">
 
-  <article class="resource-card">
-    <p class="resource-type">Open-source tool</p>
-    <h2>Espikify</h2>
+  <article class="scholar-item resource-item">
+    <h3 class="scholar-title">
+      <a href="https://github.com/NEAR-the-future/Espikify">Espikify</a>
+    </h3>
+    <p class="scholar-authors">NEAR Lab open-source tool</p>
+    <p class="scholar-venue">PyTorch SNN deployment · ESP32-S3</p>
     <p>
       Espikify exports trained PyTorch spiking neural network controllers into
       ESP32-S3-ready C headers and runtime files.
     </p>
-    <a href="https://github.com/NEAR-the-future/Espikify" class="resource-link">View on GitHub</a>
+    <p class="scholar-links">
+      <a href="https://github.com/NEAR-the-future/Espikify">Code</a>
+    </p>
   </article>
 
 </div>

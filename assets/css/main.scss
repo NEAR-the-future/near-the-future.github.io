@@ -170,6 +170,29 @@
   flex: 1;
 }
 
+.pi-info h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.25rem;
+}
+
+.pi-title {
+  margin-bottom: 0.8rem;
+  color: #596475;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.pi-desc {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.pi-links {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .pi-card {
     flex-direction: column;
@@ -194,38 +217,62 @@
 /* People Grid */
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
   margin: 2rem 0;
 }
 
 .person-card {
-  text-align: center;
-  padding: 1rem 0.75rem;
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: center;
+  min-height: 116px;
+  padding: 1rem;
   border-radius: 8px;
   background: #fbfcfd;
-  border: 1px solid #edf0f3;
+  border: 1px solid #e5e9ee;
+  box-shadow: 0 8px 22px rgba(22, 33, 46, 0.04);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.person-card:hover {
+  border-color: #cfd8e2;
+  box-shadow: 0 12px 26px rgba(22, 33, 46, 0.08);
+  transform: translateY(-1px);
 }
 
 .person-card img {
-  width: 140px;
-  height: 140px;
+  width: 72px;
+  height: 72px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 0.6rem;
+  margin: 0;
+}
+
+.person-card__body {
+  min-width: 0;
+}
+
+.person-card h3 {
+  margin: 0 0 0.18rem;
+  font-size: 0.98rem;
+  line-height: 1.25;
 }
 
 .person-role {
-  font-size: 0.78rem;
-  color: #666;
-  margin-bottom: 0.3rem;
+  margin: 0 0 0.28rem;
+  color: #586678;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .person-interest {
-  font-size: 0.78rem;
-  color: #444;
-  margin-top: 0.4rem;
-  line-height: 1.45;
+  margin: 0;
+  color: #3f4d5f;
+  font-size: 0.82rem;
+  line-height: 1.42;
 }
 
 /* Alumni */
@@ -342,54 +389,150 @@
   font-size: 0.9rem;
 }
 
-.updates-more {
-  margin-top: 0.75rem;
-  text-align: right;
-}
-
-.resource-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.25rem;
-  margin-top: 1.5rem;
-}
-
-.resource-card {
-  padding: 1.25rem;
-  border: 1px solid #e4e9ee;
-  border-radius: 8px;
-  background: #fbfcfd;
-  box-shadow: 0 10px 24px rgba(22, 33, 46, 0.06);
-}
-
-.resource-card h2 {
-  margin: 0.1rem 0 0.6rem;
-  font-size: 1.25rem;
-}
-
-.resource-card p {
-  font-size: 0.92rem;
-  line-height: 1.55;
-}
-
-.resource-type {
-  margin: 0;
-  color: #637083;
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.resource-link {
+.news-badge {
   display: inline-block;
-  margin-top: 0.4rem;
+  margin-right: 0.35rem;
+  padding: 0.1rem 0.32rem;
+  border-radius: 4px;
+  background: #b45f38;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.scholar-list {
+  margin: 0.8rem 0 2rem;
+  border-top: 1px solid #e1e6ec;
+}
+
+.scholar-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e1e6ec;
+}
+
+.scholar-title {
+  margin: 0 0 0.22rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.scholar-title a {
+  text-decoration: none;
+}
+
+.scholar-authors {
+  margin: 0.15rem 0;
+  color: #2f3d4f;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.scholar-venue,
+.scholar-excerpt,
+.resource-item > p {
+  margin: 0.15rem 0;
+  color: #5f6d7f;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.scholar-venue span::before {
+  content: " · ";
+}
+
+.scholar-links {
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
   font-weight: 700;
+}
+
+.scholar-links a {
+  margin-right: 0.75rem;
+}
+
+.scholar-empty {
+  margin: 0;
+  padding: 0.9rem 0;
+  color: #7a8491;
+  font-size: 0.86rem;
+  border-bottom: 1px solid #e1e6ec;
+}
+
+#theme-toggle a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  cursor: pointer;
+}
+
+#theme-toggle a::before {
+  display: none;
 }
 
 @media (max-width: 640px) {
   .news-item {
     grid-template-columns: 1fr;
     gap: 0.25rem;
+  }
+
+  .person-card {
+    grid-template-columns: 60px minmax(0, 1fr);
+  }
+
+  .person-card img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+html[data-theme="dark"] {
+  .research-panel,
+  .person-card {
+    background: #1f2832;
+    border-color: #334252;
+    box-shadow: none;
+  }
+
+  .research-overlay {
+    background: linear-gradient(180deg, rgba(31, 40, 50, 0.96), rgba(24, 31, 39, 0.98));
+  }
+
+  .research-overlay p,
+  .person-interest,
+  .scholar-venue,
+  .scholar-excerpt,
+  .resource-item > p {
+    color: #c1cad4;
+  }
+
+  .pi-title,
+  .person-role,
+  .news-date,
+  .scholar-empty {
+    color: #9eabb9;
+  }
+
+  .join-near {
+    background: #1f2832;
+    border-left-color: #68a3c0;
+  }
+
+  .news-list,
+  .news-item,
+  .scholar-list,
+  .scholar-item,
+  .scholar-empty {
+    border-color: #334252;
+  }
+
+  .scholar-authors {
+    color: #e0e6ec;
+  }
+
+  .news-badge {
+    background: #d1794d;
+    color: #111820;
   }
 }
