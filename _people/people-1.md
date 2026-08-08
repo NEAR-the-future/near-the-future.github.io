@@ -22,7 +22,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
       <a href="https://scholar.google.com/citations?user=PDP31hEAAAAJ&hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a>
       <span class="pi-citation-badge">Citations on Scholar</span>
       <a href="mailto:guweibin@air.tsinghua.edu"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
-      <a href="http://www.linkedin.com/in/wgu938"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+      <a href="http://www.linkedin.com/in/wgu938"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a> 
     </p>
   </div>
 </div>
@@ -83,6 +83,24 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
       <h3>Yuxuan Wang</h3>
       <p class="person-role">Research Intern</p>
       <p class="person-interest">Machine Learning, Prototyping</p>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="/images/people/Ruiyuan_Bai.png" alt="Ruiyuan Bai">
+    <div class="person-card__body">
+      <h3>Ruiyuan Bai</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Embedded Systems, Hardware</p>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="/images/people/people_placeholder_male.jpg" alt="Junkun Jiang">
+    <div class="person-card__body">
+      <h3>Junkun Jiang</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Navigation, Machine Learning</p>
     </div>
   </div>
 
