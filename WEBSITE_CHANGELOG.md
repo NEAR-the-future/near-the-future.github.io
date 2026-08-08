@@ -2,6 +2,7 @@
 
 ## 2026-08-08
 
+- Updated the People page Scholar badge with the verified Google Scholar citation count, tightened team role/skills spacing, and added `IMG_4558` to the Gallery carousel.
 - Removed the PI CV quick link, added icons and a Scholar citation badge to PI profile links, and restacked team member cards as name, role, then skills.
 - Moved the People page dinner gathering carousel into a dedicated Gallery section above Join NEAR Lab.
 - Added an auto-advancing dinner gathering photo gallery below the People page introduction, with clickable slide dots and browser-ready JPEG copies of the HEIC originals.

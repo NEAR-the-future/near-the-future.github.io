@@ -20,9 +20,9 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 
     <p class="pi-links">
       <a href="https://scholar.google.com/citations?user=PDP31hEAAAAJ&hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a>
-      <span class="pi-citation-badge">Citations on Scholar</span>
+      <span class="pi-citation-badge" title="Google Scholar citation count checked on August 8, 2026">291 citations</span>
       <a href="mailto:guweibin@air.tsinghua.edu"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
-      <a href="http://www.linkedin.com/in/wgu938"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a> 
+      <a href="http://www.linkedin.com/in/wgu938"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
     </p>
   </div>
 </div>
@@ -125,11 +125,13 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     <img class="people-gallery__slide is-active" src="/images/people/dinner_gathering/735.jpg" alt="NEAR Lab dinner gathering photo 1">
     <img class="people-gallery__slide" src="/images/people/dinner_gathering/IMG_0566.jpg" alt="NEAR Lab dinner gathering photo 2">
     <img class="people-gallery__slide" src="/images/people/dinner_gathering/IMG_2760.jpg" alt="NEAR Lab dinner gathering photo 3">
+    <img class="people-gallery__slide" src="/images/people/dinner_gathering/IMG_4558.jpg" alt="NEAR Lab dinner gathering photo 4">
   </div>
   <div class="people-gallery__dots" aria-label="Choose dinner gathering photo">
     <button class="is-active" type="button" aria-label="Show photo 1"></button>
     <button type="button" aria-label="Show photo 2"></button>
     <button type="button" aria-label="Show photo 3"></button>
+    <button type="button" aria-label="Show photo 4"></button>
   </div>
 </section>
 
