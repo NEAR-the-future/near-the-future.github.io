@@ -15,7 +15,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     <p class="pi-title">Postdoctoral Researcher<br>Institute for AI Industry Research (AIR), Tsinghua University</p>
 
     <p class="pi-desc">
-      Dr. Weibin Gu is a Postdoctoral Researcher and Shuimu Tsinghua Scholar at the Institute for AI Industry Research (AIR), Tsinghua University. His research focuses on nonlinear control, interpretable robot learning, and bio-inspired robotics, with applications in adaptive robotic systems and autonomous industrial inspection. He earned his Ph.D. in Electronics and Communications Engineering from Politecnico di Torino, Italy, where his dissertation received cum laude recognition and the support of the 2021 Amazon Research Award. Dr. Gu has published over 10 papers in international journals and conferences, holds 4 Chinese patents, and actively serves as a reviewer for leading venues including CDC, ACC, ICRA, L-CSS, and RA-L. Beyond publications, he is passionate about translating research into real-world impact, from leading teams and prototyping robotic systems to developing innovative, market-ready technologies that solve tangible industrial challenges.
+      Dr. Weibin Gu is a Postdoctoral Researcher and Shuimu Tsinghua Scholar at the Institute for AI Industry Research (AIR), Tsinghua University. His research focuses on nonlinear control, interpretable robot learning, and bio-inspired robotics, with applications in adaptive robotic systems and autonomous industrial inspection. He earned his Ph.D. in Electronics and Communications Engineering cum laude from Politecnico di Torino under the supervision of Prof. Alessandro Rizzo, where his doctoral research received funding from the 2021 Amazon Research Award. Dr. Gu has published over 15 papers in leading international journals and conferences, holds 4 Chinese patents, and regularly serves as a reviewer for prominent venues including CDC, ACC, L-CSS, ICRA, RA-L, Automatica, and Nature Portfolio journals. Beyond publications, he is passionate about translating research into real-world impact, from leading teams and prototyping robotic systems to developing innovative, market-ready technologies that solve tangible industrial challenges.
     </p>
 
     <p class="pi-links">
@@ -37,7 +37,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     <div class="person-card__body">
       <h3>Chenrui Feng</h3>
       <p class="person-role">Research Engineer</p>
-      <p class="person-interest">Embedded Systems, Simulator, Dynamics and Control</p>
+      <p class="person-interest">Embedded Systems, Simulator, Dynamics and Control, Hardware</p>
     </div>
   </div>
 
@@ -46,7 +46,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     <div class="person-card__body">
       <h3>Xingchi Jiao</h3>
       <p class="person-role">Research Engineer</p>
-      <p class="person-interest">Hardware, Embedded Systems, Neuromorphic Computing</p>
+      <p class="person-interest">Hardware, Embedded Systems, Neuromorphic Computing, Prototyping</p>
     </div>
   </div>
 
@@ -55,7 +55,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     <div class="person-card__body">
       <h3>Lian Liu</h3>
       <p class="person-role">Research Intern</p>
-      <p class="person-interest">Mechanical Design, CFD Simulation, Prototyping</p>
+      <p class="person-interest">Mechanical Design, CFD Simulation, Prototyping, Drone Piloting</p>
     </div>
   </div>
 
@@ -64,7 +64,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     <div class="person-card__body">
       <h3>Chen Yang</h3>
       <p class="person-role">Research Intern</p>
-      <p class="person-interest">Dynamics and Control, Embedded Systems</p>
+      <p class="person-interest">Dynamics and Control, Embedded Systems, Machine Learning</p>
     </div>
   </div>
 
@@ -95,9 +95,9 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
   <li><strong>Chaolai Da</strong> — Previous Research Intern; Hardware, FPGA Simulation</li>
   <li><strong>Chun Zhang</strong> — Previous Research Intern; Neuromorphic Computing</li>
   <li><strong>Hengyang Li</strong> — Previous Research Intern; CFD/FSI Simulation, Prototyping</li>
-  <li><strong>Xinge Huang</strong> — Previous Research Intern; Simulator</li>
+  <!-- <li><strong>Xinge Huang</strong> — Previous Research Intern; Simulator</li> -->
   <li><strong>Yuhe Ding</strong> — Previous Research Intern; Embedded Systems, Dynamics and Control, Prototyping</li>
-  <li><strong>Xiaofei Shi</strong> — Previous Research Intern; Mechanical Design, Prototyping</li>
+  <li><strong>Xiaofei Shi</strong> — Previous Research Intern; Mechanical Design, Prototyping, Drone Piloting</li>
 </ul>
 
 <hr>
