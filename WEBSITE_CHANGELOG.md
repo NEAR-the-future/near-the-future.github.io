@@ -2,6 +2,11 @@
 
 ## 2026-08-08
 
+- Changed the homepage Updates month for the Koopman paper announcement from January to June.
+- Simplified Publications into compact numbered one-line entries with title, authors, venue, year, and Details link only.
+- Expanded the Koopman paper detail page with a paper-summary landing-page layout, contributions, findings, links, and figures.
+- Reworked the People page Team section into one-row member entries and moved Rim El Filali, Chaolai Da, Chun Zhang, and Hengyang Li to Alumni & Visitors.
+- Removed the extra "Code" quick access from Resources.
 - Restored the light/dark mode toggle in the masthead and re-enabled the source JavaScript click handler.
 - Updated the Koopman identification publication to link to IEEE Xplore.
 - Reworked homepage Updates into a news announcement format with a latest-news `NEW!` marker and month.

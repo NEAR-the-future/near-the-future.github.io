@@ -15,35 +15,22 @@ author_profile: true
 
 {% for category in site.publication_category %}
   <h2>{{ category[1].title }}</h2>
-  <div class="scholar-list">
-    {% assign has_publications = false %}
-    {% for post in publications_by_date %}
-      {% if post.category == category[0] %}
-        {% assign has_publications = true %}
-        <article class="scholar-item publication-item">
-          <h3 class="scholar-title">
-            <a href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a>
-          </h3>
-          {% if post.authors %}
-            <p class="scholar-authors">{{ post.authors }}</p>
-          {% endif %}
-          <p class="scholar-venue">
-            {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
-            {% if post.date %}<span>{{ post.date | date: "%Y" }}</span>{% endif %}
-          </p>
-          {% if post.excerpt %}
-            <p class="scholar-excerpt">{{ post.excerpt }}</p>
-          {% endif %}
-          <p class="scholar-links">
-            {% if post.paperurl %}<a href="{{ post.paperurl }}">Publisher</a>{% endif %}
-            <a href="{{ base_path }}{{ post.url }}">Details</a>
-            {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
-          </p>
-        </article>
-      {% endif %}
-    {% endfor %}
-    {% unless has_publications %}
-      <p class="scholar-empty">No entries listed yet.</p>
-    {% endunless %}
-  </div>
+  {% assign category_posts = publications_by_date | where: "category", category[0] %}
+  {% if category_posts.size > 0 %}
+    <ol class="scholar-list publication-list">
+      {% for post in category_posts %}
+        <li class="scholar-item publication-item">
+          <span class="publication-main">
+            <a class="publication-title" href="{% if post.paperurl %}{{ post.paperurl }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">{{ post.title }}</a>
+            {% if post.authors %}<span class="publication-authors">{{ post.authors }}</span>{% endif %}
+            {% if post.venue %}<span class="publication-venue"><em>{{ post.venue }}</em></span>{% endif %}
+            {% if post.date %}<span class="publication-year">{{ post.date | date: "%Y" }}</span>{% endif %}
+          </span>
+          <a class="publication-details" href="{{ base_path }}{{ post.url }}">Details</a>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="scholar-empty">No entries listed yet.</p>
+  {% endif %}
 {% endfor %}

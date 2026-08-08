@@ -217,18 +217,18 @@
 /* People Grid */
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
   margin: 2rem 0;
 }
 
 .person-card {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  gap: 0.9rem;
+  grid-template-columns: 74px minmax(0, 1fr);
+  gap: 1rem;
   align-items: center;
-  min-height: 116px;
-  padding: 1rem;
+  min-height: 94px;
+  padding: 0.85rem 1rem;
   border-radius: 8px;
   background: #fbfcfd;
   border: 1px solid #e5e9ee;
@@ -251,17 +251,23 @@
 }
 
 .person-card__body {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.85fr) minmax(220px, 1.35fr);
+  column-gap: 1rem;
+  align-items: center;
   min-width: 0;
 }
 
 .person-card h3 {
-  margin: 0 0 0.18rem;
-  font-size: 0.98rem;
+  grid-column: 1;
+  margin: 0;
+  font-size: 1rem;
   line-height: 1.25;
 }
 
 .person-role {
-  margin: 0 0 0.28rem;
+  grid-column: 1;
+  margin: 0.16rem 0 0;
   color: #586678;
   font-size: 0.82rem;
   font-weight: 700;
@@ -269,9 +275,11 @@
 }
 
 .person-interest {
+  grid-column: 2;
+  grid-row: 1 / span 2;
   margin: 0;
   color: #3f4d5f;
-  font-size: 0.82rem;
+  font-size: 0.86rem;
   line-height: 1.42;
 }
 
@@ -406,9 +414,62 @@
   border-top: 1px solid #e1e6ec;
 }
 
+.publication-list {
+  padding-left: 2.1rem;
+}
+
 .scholar-item {
   padding: 1rem 0;
   border-bottom: 1px solid #e1e6ec;
+}
+
+.publication-item {
+  padding-left: 0.15rem;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.publication-item::marker {
+  color: #637083;
+  font-weight: 700;
+}
+
+.publication-main {
+  display: inline;
+}
+
+.publication-title {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.publication-authors,
+.publication-venue,
+.publication-year {
+  color: #4c5b6c;
+}
+
+.publication-authors::before,
+.publication-venue::before,
+.publication-year::before {
+  content: " · ";
+  color: #9aa6b2;
+}
+
+.publication-details {
+  margin-left: 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.publication-details::before {
+  content: "[";
+  color: #9aa6b2;
+}
+
+.publication-details::after {
+  content: "]";
+  color: #9aa6b2;
 }
 
 .scholar-title {
@@ -459,6 +520,64 @@
   border-bottom: 1px solid #e1e6ec;
 }
 
+.paper-spotlight {
+  margin: 0.25rem 0 1.5rem;
+  padding: 1.15rem 1.25rem;
+  border-left: 4px solid #2f6f8f;
+  border-radius: 0 8px 8px 0;
+  background: #f8fafb;
+}
+
+.paper-kicker {
+  margin: 0 0 0.4rem;
+  color: #637083;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.paper-lead {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.paper-actions {
+  margin: 0.8rem 0 0;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.paper-actions a {
+  margin-right: 0.9rem;
+}
+
+.paper-figure {
+  margin: 1.2rem 0;
+}
+
+.paper-figure img {
+  width: 100%;
+  border: 1px solid #e1e6ec;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.paper-figure figcaption {
+  margin-top: 0.45rem;
+  color: #637083;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.paper-figure-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 #theme-toggle a {
   display: flex;
   align-items: center;
@@ -485,11 +604,24 @@
     width: 60px;
     height: 60px;
   }
+
+  .person-card__body {
+    display: block;
+  }
+
+  .person-card h3 {
+    margin-bottom: 0.18rem;
+  }
+
+  .person-interest {
+    margin-top: 0.28rem;
+  }
 }
 
 html[data-theme="dark"] {
   .research-panel,
-  .person-card {
+  .person-card,
+  .paper-spotlight {
     background: #1f2832;
     border-color: #334252;
     box-shadow: none;
@@ -501,8 +633,12 @@ html[data-theme="dark"] {
 
   .research-overlay p,
   .person-interest,
+  .publication-authors,
+  .publication-venue,
+  .publication-year,
   .scholar-venue,
   .scholar-excerpt,
+  .paper-figure figcaption,
   .resource-item > p {
     color: #c1cad4;
   }
@@ -523,7 +659,8 @@ html[data-theme="dark"] {
   .news-item,
   .scholar-list,
   .scholar-item,
-  .scholar-empty {
+  .scholar-empty,
+  .paper-figure img {
     border-color: #334252;
   }
 

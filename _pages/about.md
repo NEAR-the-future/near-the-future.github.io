@@ -44,7 +44,7 @@ See the [**Research**](/research/) page for details.
 <div class="news-list">
 
   <div class="news-item">
-    <span class="news-date">Jan 2026</span>
+    <span class="news-date">Jun 2026</span>
     <p class="news-text">
       <span class="news-badge">NEW!</span>
       New paper comes out:

@@ -56,47 +56,11 @@ We value curiosity, rigor, and building systems that learn through real interact
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_female.jpg" alt="Rim El Filali">
-    <div class="person-card__body">
-      <h3>Rim El Filali</h3>
-      <p class="person-role">Master's Student</p>
-      <p class="person-interest">Neuromorphic control, machine learning, neural computation</p>
-    </div>
-  </div>
-
-  <div class="person-card">
     <img src="/images/people/people_placeholder_female.jpg" alt="Lian Liu">
     <div class="person-card__body">
       <h3>Lian Liu</h3>
       <p class="person-role">Research Intern</p>
       <p class="person-interest">Mechanical design, CFD, aircraft prototyping</p>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Chaolai Da">
-    <div class="person-card__body">
-      <h3>Chaolai Da</h3>
-      <p class="person-role">Research Intern</p>
-      <p class="person-interest">Electronic design, FPGA architecture, hardware simulation</p>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Chun Zhang">
-    <div class="person-card__body">
-      <h3>Chun Zhang</h3>
-      <p class="person-role">Research Intern</p>
-      <p class="person-interest">Spiking neural networks, online learning</p>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Hengyang Li">
-    <div class="person-card__body">
-      <h3>Hengyang Li</h3>
-      <p class="person-role">Research Intern</p>
-      <p class="person-interest">Aerodynamics, CFD, aircraft prototyping</p>
     </div>
   </div>
 
@@ -132,6 +96,10 @@ We value curiosity, rigor, and building systems that learn through real interact
 <h2>Alumni & Visitors</h2>
 
 <ul class="alumni-list">
+  <li><strong>Rim El Filali</strong> — Master's Student; neuromorphic control, machine learning, neural computation</li>
+  <li><strong>Chaolai Da</strong> — Research Intern; electronic design, FPGA architecture, hardware simulation</li>
+  <li><strong>Chun Zhang</strong> — Research Intern; spiking neural networks, online learning</li>
+  <li><strong>Hengyang Li</strong> — Research Intern; aerodynamics, CFD, aircraft prototyping</li>
   <li><strong>Xinge Huang</strong> — Now at Institute of Mechanics, Chinese Academy of Sciences, Beijing, PR China</li>
   <!-- <li><strong>Chen Yang</strong> — Now at School of Engineering, China University of Petroleum-Beijing at Karamay, Karamay, Xinjiang Uygur Autonomous Region, PR China</li> -->
   <li><strong>Yuhe Ding</strong> — Now at School of Information and Software Engineering, UESTC, Chengdu, PR China</li>

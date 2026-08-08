@@ -19,9 +19,6 @@ author_profile: true
       Espikify exports trained PyTorch spiking neural network controllers into
       ESP32-S3-ready C headers and runtime files.
     </p>
-    <p class="scholar-links">
-      <a href="https://github.com/NEAR-the-future/Espikify">Code</a>
-    </p>
   </article>
 
 </div>
