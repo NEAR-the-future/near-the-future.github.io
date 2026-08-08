@@ -2,6 +2,7 @@
 
 ## 2026-08-08
 
+- Placed team roles inline beside names, widened the Join NEAR Lab text block, and added an AirPulse placeholder video demo to Featured Research.
 - Enlarged homepage section numbers to match section title scale and widened the What We Value label column.
 - Renamed Research navigation/page language to Featured Research, cleared the current Featured Research page body, and updated homepage research links.
 - Standardized sidebar-page content width across page and archive layouts while keeping the left lab profile panel.
