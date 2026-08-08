@@ -2,6 +2,8 @@
 
 ## 2026-08-08
 
+- Refined the homepage layout so the main content spans the available browser width while retaining the default left NEAR Lab profile panel.
+- Adjusted homepage spacing, hero sizing, section-number scale, and card grids for a cleaner desktop/mobile layout.
 - Rebuilt the homepage as a compact NEAR Lab manifesto with a strong hero, five numbered sections, research pillars, Build-Understand-Learn-Adapt pipeline, principles, and final vision statement.
 - Added responsive and dark-mode styling for the redesigned homepage.
 - Removed the auto-generated recommended citation/download footer from the Koopman paper detail page.

@@ -46,13 +46,39 @@
    NEAR Lab – Homepage Manifesto
    ========================= */
 
+@media (min-width: 64em) {
+  #main:has(.home-hero) {
+    max-width: min(1480px, calc(100vw - 2rem));
+    padding-right: clamp(1rem, 2.2vw, 2rem);
+    padding-left: clamp(1rem, 2.2vw, 2rem);
+  }
+
+  #main:has(.home-hero) .page {
+    float: none;
+    width: auto;
+    margin-left: clamp(220px, 18vw, 270px);
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #main:has(.home-hero) .page__inner-wrap,
+  #main:has(.home-hero) .page__content,
+  #main:has(.home-hero) .page__meta {
+    width: 100%;
+  }
+
+  #main:has(.home-hero) .page__meta {
+    display: none;
+  }
+}
+
 .home-hero {
   position: relative;
-  min-height: clamp(420px, 58vh, 620px);
+  min-height: clamp(390px, 52vh, 590px);
   display: flex;
   align-items: flex-end;
-  margin: 0 0 2rem;
-  padding: clamp(2rem, 5vw, 4rem);
+  margin: 0 0 1.6rem;
+  padding: clamp(1.8rem, 4.5vw, 4rem);
   overflow: hidden;
   border-radius: 8px;
   color: #fff;
@@ -125,8 +151,8 @@
   flex-wrap: wrap;
   gap: 0.45rem 0.65rem;
   align-items: baseline;
-  margin: 0 0 2.2rem;
-  padding: 0.75rem 0;
+  margin: 0 0 2rem;
+  padding: 0.8rem 0;
   border-top: 1px solid #e1e6ec;
   border-bottom: 1px solid #e1e6ec;
   font-size: 0.9rem;
@@ -143,20 +169,22 @@
 
 .home-section {
   display: grid;
-  grid-template-columns: 76px minmax(0, 1fr);
-  gap: clamp(1rem, 3vw, 2rem);
-  padding: 2.4rem 0;
+  grid-template-columns: clamp(58px, 7vw, 88px) minmax(0, 1fr);
+  gap: clamp(0.9rem, 2.4vw, 1.8rem);
+  padding: clamp(2rem, 4vw, 3rem) 0;
   border-bottom: 1px solid #e6ebf0;
 }
 
 .home-section h2 {
   margin: 0 0 0.75rem;
+  padding-bottom: 0;
+  border-bottom: 0;
   font-size: clamp(1.55rem, 3vw, 2.4rem);
   line-height: 1.12;
 }
 
 .home-section p {
-  max-width: 830px;
+  max-width: 920px;
   font-size: 0.96rem;
   line-height: 1.68;
 }
@@ -164,9 +192,9 @@
 .home-section__number {
   margin: 0.2rem 0 0;
   color: #2f6f8f;
-  font-size: 0.82rem;
+  font-size: clamp(0.9rem, 1.35vw, 1.15rem);
   font-weight: 900;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
 }
 
 .home-section__lead {
@@ -185,17 +213,18 @@
 .home-pillar-grid,
 .home-principle-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.9rem;
-  margin: 1.3rem 0;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.8rem, 1.6vw, 1rem);
+  margin: 1.4rem 0;
 }
 
 .home-pillar,
 .home-principle-grid article {
-  padding: 1rem;
+  padding: clamp(0.95rem, 2vw, 1.2rem);
   border: 1px solid #e1e6ec;
   border-radius: 8px;
   background: #fbfcfd;
+  box-shadow: 0 10px 24px rgba(22, 33, 46, 0.04);
 }
 
 .home-pillar h3,
@@ -850,7 +879,7 @@
 
 @media (max-width: 640px) {
   .home-hero {
-    min-height: 500px;
+    min-height: 470px;
     padding: 1.4rem;
     background:
       linear-gradient(180deg, rgba(9, 21, 31, 0.86), rgba(9, 21, 31, 0.68)),
@@ -868,6 +897,11 @@
   }
 
   .home-pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .home-pillar-grid,
+  .home-principle-grid {
     grid-template-columns: 1fr;
   }
 
