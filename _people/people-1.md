@@ -4,12 +4,7 @@ permalink: /people/
 author_profile: true
 ---
 
-The NEAR Lab is an interdisciplinary research group focused on building bio-inspired robotic systems that learn and adapt through physical interaction. Our members come from robotics, control, neuroscience, aerospace, and machine learning, and share an interest in understanding intelligence as an embodied process. We value curiosity, technical rigor, and a hands-on approach to understanding intelligence through physical systems.
-
-
-<!-- The NEAR Lab brings together researchers and engineers interested in **neuro-embodied adaptive robotics**, spanning bio-inspired machines, neurorobotics, modeling, and lifelong learning.
-
-We value curiosity, rigor, and building systems that learn through real interaction with the world. -->
+NEAR Lab is a multidisciplinary and multicultural team united by a shared vision for neuro-embodied adaptive robotics and a strong passion for building intelligent physical systems. We believe ambitious research is a team achievement: each of us stands on the shoulders of the group, and great success comes from shared curiosity, trust, rigor, and hands-on work.
 
 <h2>Principal Investigator</h2>
 
@@ -112,20 +107,18 @@ We value curiosity, rigor, and building systems that learn through real interact
   <h2>Join NEAR Lab</h2>
 
   <p>
-    We are always interested in motivated students and collaborators who are
-    excited about bio-inspired robotics, neurorobotics, and learning systems
-    grounded in real-world embodiment.
+    We welcome students and collaborators with strong curiosity about our work
+    and a willingness to build, test, and iterate on real systems.
   </p>
 
   <p>
-    Prospective members are encouraged to have strong curiosity, solid technical
-    foundations, and a willingness to build, test, and iterate on real systems.
+    Students interested in joining the lab are expected to have a good academic
+    record and skill sets that match our research directions.
   </p>
 
   <p>
-    If you are interested in joining the lab, please email
-    <strong>guweibin@air.tsinghua.edu</strong> with a brief description of your
-    background, interests, and goals.
+    Please send a resume and a brief introduction of your background, interests,
+    and goals to <strong>guweibin@air.tsinghua.edu</strong>.
   </p>
 
   <!-- <p class="join-note">

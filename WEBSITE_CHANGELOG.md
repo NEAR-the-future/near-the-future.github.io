@@ -2,6 +2,9 @@
 
 ## 2026-08-08
 
+- Removed the auto-generated recommended citation/download footer from the Koopman paper detail page.
+- Tightened the People page introduction around the lab's multidisciplinary, multicultural team culture and shared belief in team-based success.
+- Rewrote the Join NEAR Lab section to clarify expectations for curiosity, real-system iteration, academic record, matched skills, and application materials.
 - Changed the homepage Updates month for the Koopman paper announcement from January to June.
 - Simplified Publications into compact numbered one-line entries with title, authors, venue, year, and Details link only.
 - Expanded the Koopman paper detail page with a paper-summary landing-page layout, contributions, findings, links, and figures.

@@ -10,7 +10,6 @@ authors: "Weibin Gu, Chen Yang, and Lu Shi"
 paperurl: "https://ieeexplore.ieee.org/document/11547162"
 arxivurl: "https://arxiv.org/abs/2605.04917"
 codeurl: "https://github.com/NEAR-the-future/RC-Koopman"
-citation: "Gu, Weibin, Chen Yang, and Lu Shi. &quot;Koopman Identification of Nonlinear Systems via Reservoir Liftings.&quot; <i>IEEE Control Systems Letters</i> (2026)."
 ---
 
 <section class="paper-spotlight">
