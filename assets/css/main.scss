@@ -638,7 +638,7 @@
 
 .person-role {
   display: inline;
-  margin: 0 0 0 0.35rem;
+  margin: 0 0 0 0.65rem;
   color: #586678;
   font-size: 0.82rem;
   font-weight: 700;
@@ -647,9 +647,10 @@
 }
 
 .person-role::before {
-  content: "| ";
+  content: "|";
   color: #a0a9b4;
   font-weight: 600;
+  margin-right: 0.65rem;
 }
 
 .person-interest {
