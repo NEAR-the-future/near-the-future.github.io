@@ -33,56 +33,56 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 
   <!-- Member -->
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Chenrui Feng">
+    <img src="/images/people/Chenrui_Feng.png" alt="Chenrui Feng">
     <div class="person-card__body">
       <h3>Chenrui Feng</h3>
       <p class="person-role">Research Engineer</p>
-      <p class="person-interest">Embedded systems, modeling, control</p>
+      <p class="person-interest">Embedded Systems, Simulator, Dynamics and Control</p>
     </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Xingchi Jiao">
+    <img src="/images/people/Xingchi_Jiao.jpg" alt="Xingchi Jiao">
     <div class="person-card__body">
       <h3>Xingchi Jiao</h3>
       <p class="person-role">Research Engineer</p>
-      <p class="person-interest">Embedded systems, neuromorphic control, FPGA architecture</p>
+      <p class="person-interest">Hardware, Embedded Systems, Neuromorphic Computing</p>
     </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_female.jpg" alt="Lian Liu">
+    <img src="/images/people/Lian_Liu.jpg" alt="Lian Liu">
     <div class="person-card__body">
       <h3>Lian Liu</h3>
       <p class="person-role">Research Intern</p>
-      <p class="person-interest">Mechanical design, CFD, aircraft prototyping</p>
+      <p class="person-interest">Mechanical Design, CFD Simulation, Prototyping</p>
     </div>
   </div>
 
   <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Yuxuan Wang">
-    <div class="person-card__body">
-      <h3>Yuxuan Wang</h3>
-      <p class="person-role">Research Intern</p>
-      <p class="person-interest">Aerodynamics, mechanical design, aircraft prototyping</p>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Alberto Bellagamba">
-    <div class="person-card__body">
-      <h3>Alberto Bellagamba</h3>
-      <p class="person-role">Research Intern</p>
-      <p class="person-interest">Reinforcement learning, simulator</p>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img src="/images/people/people_placeholder_male.jpg" alt="Chen Yang">
+    <img src="/images/people/Chen_Yang.png" alt="Chen Yang">
     <div class="person-card__body">
       <h3>Chen Yang</h3>
       <p class="person-role">Research Intern</p>
-      <p class="person-interest">Embedded systems, modeling, software</p>
+      <p class="person-interest">Dynamics and Control, Embedded Systems</p>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="/images/people/Alberto_Bellagamba.png" alt="Alberto Bellagamba">
+    <div class="person-card__body">
+      <h3>Alberto Bellagamba</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Reinforcement Learning, Simulator</p>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <img src="/images/people/Yuxuan_Wang.jpg" alt="Yuxuan Wang">
+    <div class="person-card__body">
+      <h3>Yuxuan Wang</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Machine Learning, Prototyping</p>
     </div>
   </div>
 
@@ -91,14 +91,13 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 <h2>Alumni & Visitors</h2>
 
 <ul class="alumni-list">
-  <li><strong>Rim El Filali</strong> — Master's Student; neuromorphic control, machine learning, neural computation</li>
-  <li><strong>Chaolai Da</strong> — Research Intern; electronic design, FPGA architecture, hardware simulation</li>
-  <li><strong>Chun Zhang</strong> — Research Intern; spiking neural networks, online learning</li>
-  <li><strong>Hengyang Li</strong> — Research Intern; aerodynamics, CFD, aircraft prototyping</li>
-  <li><strong>Xinge Huang</strong> — Now at Institute of Mechanics, Chinese Academy of Sciences, Beijing, PR China</li>
-  <!-- <li><strong>Chen Yang</strong> — Now at School of Engineering, China University of Petroleum-Beijing at Karamay, Karamay, Xinjiang Uygur Autonomous Region, PR China</li> -->
-  <li><strong>Yuhe Ding</strong> — Now at School of Information and Software Engineering, UESTC, Chengdu, PR China</li>
-  <li><strong>Xiaofei Shi</strong> — Now at College of Engineering, Shantou University, Shantou, PR China</li>
+  <li><strong>Rim El Filali</strong> — Previous Master's Student; Machine Learning, Neuromorphic Computing, Dynamics and Control</li>
+  <li><strong>Chaolai Da</strong> — Previous Research Intern; Hardware, FPGA Simulation</li>
+  <li><strong>Chun Zhang</strong> — Previous Research Intern; Neuromorphic Computing</li>
+  <li><strong>Hengyang Li</strong> — Previous Research Intern; CFD/FSI Simulation, Prototyping</li>
+  <li><strong>Xinge Huang</strong> — Previous Research Intern; Simulator</li>
+  <li><strong>Yuhe Ding</strong> — Previous Research Intern; Embedded Systems, Dynamics and Control, Prototyping</li>
+  <li><strong>Xiaofei Shi</strong> — Previous Research Intern; Mechanical Design, Prototyping</li>
 </ul>
 
 <hr>
@@ -113,13 +112,13 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 
   <p>
     Students interested in joining the lab are expected to have a good academic
-    record and skill sets that match our research directions.
-  </p>
-
-  <p>
-    Please send a resume and a brief introduction of your background, interests,
+    record and skill sets that match our research directions. Please send a resume and a brief introduction of your background, interests,
     and goals to <strong>guweibin@air.tsinghua.edu</strong>.
   </p>
+
+  <!-- <p>
+    
+  </p> -->
 
   <!-- <p class="join-note">
     We welcome Ph.D., Master’s, undergraduate researchers, and visiting students.
