@@ -2,6 +2,7 @@
 
 ## 2026-08-08
 
+- Moved the People page dinner gathering carousel into a dedicated Gallery section above Join NEAR Lab.
 - Added an auto-advancing dinner gathering photo gallery below the People page introduction, with clickable slide dots and browser-ready JPEG copies of the HEIC originals.
 - Removed the visual separator between team names and roles while preserving wider inline spacing.
 - Updated PI biography formatting for <em>cum laude</em> and linked Prof. Alessandro Rizzo; widened team name/role separator spacing.
