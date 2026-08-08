@@ -2,6 +2,12 @@
 
 ## 2026-08-08
 
+- Made the redesigned homepage full-width and responsive, with scoped layout overrides that remove the inherited sidebar column spacing.
+- Reduced the inherited desktop right-side page suffix across the site and clipped accidental horizontal overflow for cleaner browser-width fit.
+- Changed the homepage hero background to `images/Image_20260424_215652.png`.
+- Enlarged the homepage section numbers so they read as intentional section markers.
+- Redesigned the Build-Understand-Learn-Adapt sequence as a connected process rail instead of a boxed 1-by-4 table.
+- Reworked the What We Value section into a quote-led editorial list without rectangular blocks.
 - Rebuilt the homepage as a compact NEAR Lab manifesto with a strong hero, five numbered sections, research pillars, Build-Understand-Learn-Adapt pipeline, principles, and final vision statement.
 - Added responsive and dark-mode styling for the redesigned homepage.
 - Removed the auto-generated recommended citation/download footer from the Koopman paper detail page.
