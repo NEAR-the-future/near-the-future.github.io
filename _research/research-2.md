@@ -4,10 +4,9 @@ permalink: /research/
 author_profile: true
 ---
 
-At the NEAR Lab, our research centers on **neuro-embodied adaptive robotics**, robotic systems in which intelligence emerges from the interaction between **neural mechanisms, physical bodies, and the environment**.
+NEAR Lab studies **neuro-embodied adaptive robotics**: robotic systems whose intelligence depends on the interaction of neural computation, morphology, control, and environment.
 
-We pursue an integrated approach spanning **robot design, modeling, control, and learning**, with an emphasis on **real-world embodiment** and **lifelong adaptation**.
-
+Our work integrates robot design, nonlinear dynamics, data-driven control, neuromorphic computation, and lifelong learning. We focus on physical platforms where modeling and deployment are tightly coupled, especially dynamic and underactuated systems.
 
 <div class="research-grid">
 
@@ -17,12 +16,12 @@ We pursue an integrated approach spanning **robot design, modeling, control, and
     <div class="research-overlay">
       <h3>Bio-Inspired Flapping-Wing Robotics</h3>
       <p>
-        Uncover principles of embodied intelligence from flapping insects and vertebrate flyers.
+        Design and analyze flying robots inspired by insects and vertebrate flyers.
       </p>
       <ul>
-        <li>Flapping-wing and morphologically adaptive robots</li>
-        <li>Aerodynamic–structural coupling</li>
-        <li>Highly dynamic, underactuated platforms</li>
+        <li>Flapping-wing robotic platforms</li>
+        <li>Aerodynamic-structural-control coupling</li>
+        <li>Dynamic, underactuated flight</li>
       </ul>
     </div>
   </div>
@@ -33,11 +32,11 @@ We pursue an integrated approach spanning **robot design, modeling, control, and
     <div class="research-overlay">
       <h3>Neuro-Embodied & Neuromorphic Systems</h3>
       <p>
-        Neural principles of control and learning grounded in physical robotic systems.
+        Study neural control principles in closed-loop robotic systems.
       </p>
       <ul>
-        <li>Neurorobotics integrating sensing and actuation</li>
-        <li>Neuromorphic and neural-inspired control</li>
+        <li>Neurorobotic sensing and actuation</li>
+        <li>Neural-inspired real-time control</li>
         <li>Energy-efficient neural hardware</li>
       </ul>
     </div>
@@ -49,12 +48,12 @@ We pursue an integrated approach spanning **robot design, modeling, control, and
     <div class="research-overlay">
       <h3>Adaptive & Lifelong Learning</h3>
       <p>
-        Robots that learn continuously through interaction, not static datasets.
+        Develop robots that adapt from continuing interaction rather than fixed datasets.
       </p>
       <ul>
-        <li>Lifelong and online learning</li>
-        <li>Co-adaptation of body, control, and behavior</li>
-        <li>Long-term autonomy under changing environments</li>
+        <li>Online and lifelong learning</li>
+        <li>Co-adaptation of morphology and control</li>
+        <li>Robustness under changing dynamics</li>
       </ul>
     </div>
   </div>
@@ -65,12 +64,12 @@ We pursue an integrated approach spanning **robot design, modeling, control, and
     <div class="research-overlay">
       <h3>Modeling, Dynamics & Control</h3>
       <p>
-        Theories and models that support understanding and design of complex robots.
+        Build models and controllers for nonlinear robotic systems.
       </p>
       <ul>
-        <li>Hybrid modeling and physical simulator</li>
+        <li>Hybrid and physics-based modeling</li>
         <li>Nonlinear dynamics and reduced-order models</li>
-        <li>Data-driven control</li>
+        <li>Data-driven identification and control</li>
       </ul>
     </div>
   </div>
@@ -82,4 +81,4 @@ We pursue an integrated approach spanning **robot design, modeling, control, and
 Our research continues to expand toward:
 - tight integration of **neuromorphic hardware and robotic platforms**
 - **co-design** of morphology, control, and learning mechanisms
-- experimental studies of **development, adaptation, and evolution** in robots
+- experimental studies of **development and adaptation** in robots

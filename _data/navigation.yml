@@ -12,7 +12,7 @@ main:
     url: /research/ 
 
   - title: "Publications"
-    url: /publication/ #/publications/
+    url: /publications/
 
   - title: "People"
     url: /people/   

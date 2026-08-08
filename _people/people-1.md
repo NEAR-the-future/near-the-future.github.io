@@ -26,7 +26,7 @@ We value curiosity, rigor, and building systems that learn through real interact
     <p class="pi-links">
       <a href="https://scholar.google.com/citations?user=PDP31hEAAAAJ&hl=en">Google Scholar</a> ·
       <a href="/cv.pdf">CV</a> ·
-      <a href="mailto:weibin_gu@yeah.net">Email</a> ·
+      <a href="mailto:guweibin@air.tsinghua.edu">Email</a> ·
       <a href="http://www.linkedin.com/in/wgu938">LinkedIn</a> 
     </p>
   </div>
@@ -164,4 +164,3 @@ We value curiosity, rigor, and building systems that learn through real interact
     We welcome Ph.D., Master’s, undergraduate researchers, and visiting students.
   </p> -->
 </section>
-

@@ -46,23 +46,22 @@
    NEAR Lab – Research Cards
    ========================= */
 
-   /* Research Grid Layout */
 .research-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
-  margin: 3rem 0;
+  gap: 1.4rem;
+  margin: 2.5rem 0;
 }
 
-/* Research Panel */
 .research-panel {
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
-  background: #f7f7f7;
+  min-height: 285px;
+  border-radius: 8px;
+  background: #f7f9fb;
+  box-shadow: 0 12px 30px rgba(22, 33, 46, 0.08);
 }
 
-/* Image */
 .research-panel img {
   width: 100%;
   height: 100%;
@@ -71,16 +70,14 @@
   transition: transform 0.4s ease;
 }
 
-/* Hover zoom (subtle) */
 .research-panel:hover img {
   transform: scale(1.05);
 }
 
-/* Overlay */
 .research-overlay {
   position: absolute;
   inset: 0;
-  background:  rgba(255, 255, 255, 0.94);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(248, 251, 253, 0.98));
   padding: 1.5rem;
   opacity: 0;
   transform: translateY(10px);
@@ -90,28 +87,27 @@
   justify-content: center;
 }
 
-/* Reveal on hover */
 .research-panel:hover .research-overlay {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Text Styling */
 .research-overlay h3 {
   margin-bottom: 0.6rem;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 600;
+  line-height: 1.25;
 }
 
 .research-overlay p {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   margin-bottom: 0.8rem;
-  color: #444;
+  color: #344154;
 }
 
 .research-overlay ul {
   padding-left: 1.1rem;
-  font-size: 0.9rem;
+  font-size: 0.84rem;
 }
 
 .research-overlay li {
@@ -160,30 +156,29 @@
   gap: 2rem;
   margin: 2.5rem 0;
   align-items: flex-start;
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  flex-wrap: wrap;
 }
 
 .pi-card img {
   width: 180px;
-  border-radius: 12px;
+  border-radius: 8px;
   flex-shrink: 0;
+  box-shadow: 0 10px 24px rgba(22, 33, 46, 0.1);
 }
 
-/* Info section */
 .pi-info {
-  flex: 1; /* take remaining space */
+  flex: 1;
 }
 
-/* Responsive adjustment */
 @media (max-width: 768px) {
   .pi-card {
-    flex-direction: column;  /* stack image above text on mobile */
+    flex-direction: column;
     align-items: center;
-    text-align: center;      /* center text under image */
+    text-align: center;
   }
 
   .pi-card img {
-    width: 140px; /* slightly smaller image */
+    width: 140px;
     margin-bottom: 1rem;
   }
 
@@ -192,7 +187,7 @@
   }
 
   .pi-links {
-    justify-content: center; /* center links if using flex */
+    justify-content: center;
   }
 }
 
@@ -200,12 +195,16 @@
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 2rem;
+  gap: 1.4rem;
   margin: 2rem 0;
 }
 
 .person-card {
   text-align: center;
+  padding: 1rem 0.75rem;
+  border-radius: 8px;
+  background: #fbfcfd;
+  border: 1px solid #edf0f3;
 }
 
 .person-card img {
@@ -217,14 +216,16 @@
 }
 
 .person-role {
-  font-size: 0.45rem;
+  font-size: 0.78rem;
   color: #666;
+  margin-bottom: 0.3rem;
 }
 
 .person-interest {
-  font-size: 0.45rem;
+  font-size: 0.78rem;
   color: #444;
   margin-top: 0.4rem;
+  line-height: 1.45;
 }
 
 /* Alumni */
@@ -237,8 +238,9 @@
 .join-near {
   margin: 3rem 0 1rem;
   padding: 2rem;
-  background: #fafafa;
-  border-left: 4px solid #ddd;
+  background: #f8fafb;
+  border-left: 4px solid #2f6f8f;
+  border-radius: 0 8px 8px 0;
 }
 
 .join-near h2 {
@@ -260,84 +262,134 @@
    NEAR Lab – Homepage Button 
    ========================= */
 
-   .homepage-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin: 1.5rem 0 2rem;
-  }
+.homepage-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 1.5rem 0 2rem;
+}
   
-  /* Base button style */
-  .homepage-buttons .btn {
-    padding: 0.6rem 1.2rem;
-    border-radius: 6px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: background 0.3s, color 0.3s;
-    color: white;
-  }
-  
-  /* Blue Button - Research */
-  .btn-primary {
-    background-color: #1e6bb8; /* elegant, soft blue */
-  }
-  
-  .btn-primary:hover {
-    background-color: #145a9e; /* slightly darker on hover */
-  }
-  
-  /* Orange Button - People */
-  .btn-secondary {
-    background-color: #e07b39; /* elegant orange */
-  }
-  
-  .btn-secondary:hover {
-    background-color: #c86828; /* darker on hover */
-  }
-  
-  /* Green Button - Share */
-  .btn-tertiary {
-    background-color: #3c9d5d; /* soft, elegant green */
-  }
-  
-  .btn-tertiary:hover {
-    background-color: #2e7b47; /* darker on hover */
-  }
+.homepage-buttons .btn {
+  padding: 0.6rem 1.05rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.25s, color 0.25s, transform 0.25s;
+  color: white;
+}
 
-  /* =========================
-   NEAR Lab – Homepage News & Updates 
-   ========================= */
-  .news-list {
-    max-width: 900px;
-    margin: 2rem auto;
-  }
+.homepage-buttons .btn:hover {
+  transform: translateY(-1px);
+}
   
+.btn-primary {
+  background-color: #1f5f8b;
+}
+  
+.btn-primary:hover {
+  background-color: #174a6d;
+}
+  
+.btn-secondary {
+  background-color: #b45f38;
+}
+  
+.btn-secondary:hover {
+  background-color: #924a2b;
+}
+  
+.btn-tertiary {
+  background-color: #44745f;
+}
+  
+.btn-tertiary:hover {
+  background-color: #335b4a;
+}
+
+.news-list {
+  max-width: 900px;
+  margin: 1.4rem 0 0.5rem;
+  border-top: 1px solid #e4e9ee;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 1.2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e4e9ee;
+}
+
+.news-date {
+  font-size: 0.82rem;
+  color: #637083;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.news-text {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.news-text strong {
+  font-weight: 700;
+}
+
+.news-link {
+  margin-left: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.updates-more {
+  margin-top: 0.75rem;
+  text-align: right;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.resource-card {
+  padding: 1.25rem;
+  border: 1px solid #e4e9ee;
+  border-radius: 8px;
+  background: #fbfcfd;
+  box-shadow: 0 10px 24px rgba(22, 33, 46, 0.06);
+}
+
+.resource-card h2 {
+  margin: 0.1rem 0 0.6rem;
+  font-size: 1.25rem;
+}
+
+.resource-card p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.resource-type {
+  margin: 0;
+  color: #637083;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.resource-link {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
   .news-item {
-    display: flex;
-    gap: 1.2rem;
-    padding: 0.8rem 0;
-    border-bottom: 1px solid #e5e5e5;
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
-  
-  .news-date {
-    min-width: 90px;
-    font-size: 0.9rem;
-    color: #777;
-    font-weight: 500;
-  }
-  
-  .news-text {
-    margin: 0;
-    line-height: 1.5;
-  }
-  
-  .news-text strong {
-    font-weight: 600;
-  }
-  
-  .news-link {
-    margin-left: 0.3rem;
-    font-size: 0.9rem;
-  }
-  
-  
+}

@@ -1,19 +1,19 @@
 ---
 permalink: /
-title: "Welcome to the NEAR Lab website!"
+title: "NEAR Lab"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Intelligence does not live in algorithms alone. It emerges from **bodies, brains, and interaction with the physical world**.
+Intelligence is not only a property of algorithms. It emerges through the coupling of **neural computation, physical bodies, and environmental interaction**.
 
-At the NEAR Lab, we study how intelligent behavior arises from the tight coupling of neural systems, data-driven control, and physical embodiment in robotic systems. By integrating bio-inspired morphology, neurorobotics, and lifelong learning, we aim to build robots that learn, adapt, and evolve through real physical interaction.
+At the NEAR Lab, we study neuro-embodied adaptive robotics: robotic systems whose morphology, sensing, control, and learning are designed as an integrated whole. Our work combines bio-inspired robot design, nonlinear modeling, data-driven control, neuromorphic computation, and lifelong learning for robots that operate in the physical world.
 
 <div class="homepage-buttons">
-  <a href="https://near-the-future.github.io/research/" class="btn btn-primary">Explore Research</a>
-  <a href="https://near-the-future.github.io/people/" class="btn btn-secondary">Meet the Team</a>
+  <a href="/research/" class="btn btn-primary">Explore Research</a>
+  <a href="/people/" class="btn btn-secondary">Meet the Team</a>
   <a href="#" onclick="navigator.clipboard.writeText(window.location.href); alert('Page URL copied!');" class="btn btn-tertiary">Share This Page</a>
 </div>
 
@@ -21,70 +21,49 @@ At the NEAR Lab, we study how intelligent behavior arises from the tight couplin
 
 # Our Approach
 
-Rather than treating perception, learning, and control as separate modules, NEAR takes an embodied perspective on intelligence. We design robotic systems in which **the body shapes computation**, **learning unfolds over time**, and **behavior emerges through interaction with the environment**.
+NEAR treats intelligence as a closed-loop property of body, controller, and environment. We design systems in which morphology shapes computation, learning proceeds from experience, and control laws remain interpretable enough to analyze and deploy.
 
-Our work spans **robot design, modeling, control, and learning**, with a particular emphasis on **dynamic and underactuated systems**, such as flapping-wing robots. We believe that understanding how animals fly, sense, learn, and adapt offers essential principles for the next generation of autonomous robots.
+The lab emphasizes dynamic and underactuated platforms, including flapping-wing robots, where aerodynamics, structural dynamics, sensing, and actuation cannot be separated cleanly. These systems provide testbeds for studying adaptive behavior under real physical constraints.
 
 ---
 
 # Research
-Our research focuses on **bio-inspired robotics and embodied intelligence**, including:
-- flapping-wing and morphologically adaptive robots  
-- neuro-embodied and neuromorphic systems  
-- adaptation and lifelong learning in physical agents  
-- modeling, dynamics, and control of complex robotic systems 
 
-See the [**Research**](https://near-the-future.github.io/research/) page for details.
+Our research focuses on:
+- flapping-wing and morphologically adaptive robots
+- neuro-embodied and neuromorphic control
+- online adaptation and lifelong learning
+- modeling, dynamics, and data-driven control of nonlinear systems
 
-<!-- --- -->
+See the [**Research**](/research/) page for details.
 
-<!-- # News & Updates
+---
+
+# Updates
 
 <div class="news-list">
 
   <div class="news-item">
-    <span class="news-date">2026 · Jan</span>
+    <span class="news-date">2026</span>
     <p class="news-text">
-      <strong>Paper accepted</strong> to <em>IEEE CDC 2026</em> on neuro-embodied control of flapping-wing robots.
+      <strong>Publication:</strong>
+      Gu, Weibin, Chen Yang, and Lu Shi.
+      <a href="/publication/2026-01-01-koopman-identification-reservoir-liftings">"Koopman Identification of Nonlinear Systems via Reservoir Liftings."</a>
+      <em>IEEE Control Systems Letters</em> (2026).
     </p>
   </div>
 
-  <div class="news-item">
-    <span class="news-date">2025 · Dec</span>
-    <p class="news-text">
-      <strong>Invited talk</strong> at Tsinghua AIR seminar on neuromorphic embodied intelligence.
-    </p>
-  </div>
+</div>
 
-  <div class="news-item">
-    <span class="news-date">2025 · Nov</span>
-    <p class="news-text">
-      Released <strong>NEAR-Control</strong>, an open-source toolkit for adaptive control in underactuated robots.
-      <a href="#" class="news-link">[code]</a>
-    </p>
-  </div>
-
-</div> -->
-
-<!-- <p style="text-align: right; margin-top: 0.5rem;">
-  <a href="/news/">View all updates →</a>
-</p> -->
+<p class="updates-more"><a href="/publications/">View publications</a></p>
 
 ---
 
 # Join Us
 
-We welcome students and collaborators interested in bio-inspired robots that learn and adapt through real-world interaction. For more information and contact details, please visit our [**People**](https://near-the-future.github.io/people/) page — we’d be happy to hear from you.
+We welcome students and collaborators interested in bio-inspired robots, neurorobotics, adaptive control, and learning in physical systems. For contact details, visit the [**People**](/people/) page.
 
 ---
 
 **NEAR Lab**  
 *Where intelligence takes physical form.*
-
-<!-- 
-Why NEAR?
-- Neuro-Embodied: neural principles grounded in real physical systems
-- Adaptive: learning and change across time, not fixed behaviors
-- Robotics: intelligence tested in the real world, not simulations alone
-
-If you are excited about building robots that learn through their bodies, we would love to hear from you. Together, we are NEAR the future where robots learn like living systems. -->
