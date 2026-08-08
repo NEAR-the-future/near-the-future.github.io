@@ -46,56 +46,6 @@
    NEAR Lab – Homepage Manifesto
    ========================= */
 
-html,
-body {
-  max-width: 100%;
-  overflow-x: clip;
-}
-
-@supports not (overflow-x: clip) {
-  html,
-  body {
-    overflow-x: hidden;
-  }
-}
-
-@media (min-width: 64em) {
-  .page {
-    padding-right: 0;
-  }
-}
-
-@media (min-width: 80em) {
-  #main {
-    max-width: min(1440px, calc(100vw - 2rem));
-  }
-}
-
-#main:has(.home-hero) {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding-right: clamp(1rem, 3vw, 2.5rem);
-  padding-left: clamp(1rem, 3vw, 2.5rem);
-  box-sizing: border-box;
-}
-
-#main:has(.home-hero) .page,
-#main:has(.home-hero) .page__inner-wrap,
-#main:has(.home-hero) .page__content {
-  float: none;
-  width: 100%;
-  max-width: none;
-  margin-right: 0;
-  margin-left: 0;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-#main:has(.home-hero) .page__meta {
-  display: none;
-}
-
 .home-hero {
   position: relative;
   min-height: clamp(420px, 58vh, 620px);
@@ -108,7 +58,7 @@ body {
   color: #fff;
   background:
     linear-gradient(90deg, rgba(9, 21, 31, 0.88), rgba(9, 21, 31, 0.66) 46%, rgba(9, 21, 31, 0.22)),
-    url("/images/Image_20260424_215652.png") center / cover no-repeat;
+    url("/images/research/flapping_wing_robotics.jpg") center / cover no-repeat;
 }
 
 .home-hero__content {
@@ -175,8 +125,7 @@ body {
   flex-wrap: wrap;
   gap: 0.45rem 0.65rem;
   align-items: baseline;
-  max-width: 1180px;
-  margin: 0 auto 2.2rem;
+  margin: 0 0 2.2rem;
   padding: 0.75rem 0;
   border-top: 1px solid #e1e6ec;
   border-bottom: 1px solid #e1e6ec;
@@ -194,11 +143,8 @@ body {
 
 .home-section {
   display: grid;
-  grid-template-columns: clamp(72px, 9vw, 118px) minmax(0, 1fr);
+  grid-template-columns: 76px minmax(0, 1fr);
   gap: clamp(1rem, 3vw, 2rem);
-  max-width: 1180px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 2.4rem 0;
   border-bottom: 1px solid #e6ebf0;
 }
@@ -216,12 +162,11 @@ body {
 }
 
 .home-section__number {
-  margin: 0.06rem 0 0;
+  margin: 0.2rem 0 0;
   color: #2f6f8f;
-  font-size: clamp(1.3rem, 2.5vw, 2rem);
+  font-size: 0.82rem;
   font-weight: 900;
-  letter-spacing: 0;
-  line-height: 1;
+  letter-spacing: 0.08em;
 }
 
 .home-section__lead {
@@ -237,27 +182,31 @@ body {
   line-height: 1.2 !important;
 }
 
-.home-pillar-grid {
+.home-pillar-grid,
+.home-principle-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0.9rem;
   margin: 1.3rem 0;
 }
 
-.home-pillar {
+.home-pillar,
+.home-principle-grid article {
   padding: 1rem;
   border: 1px solid #e1e6ec;
   border-radius: 8px;
   background: #fbfcfd;
 }
 
-.home-pillar h3 {
+.home-pillar h3,
+.home-principle-grid h3 {
   margin: 0 0 0.45rem;
   font-size: 0.98rem;
   line-height: 1.28;
 }
 
-.home-pillar p {
+.home-pillar p,
+.home-principle-grid p {
   margin: 0;
   color: #4b5b6d;
   font-size: 0.86rem;
@@ -278,52 +227,34 @@ body {
 }
 
 .home-pipeline {
-  position: relative;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(1rem, 2.5vw, 1.6rem);
-  margin: 1.6rem 0 1.35rem;
-  padding: 1.15rem 0 0;
-}
-
-.home-pipeline::before {
-  content: "";
-  position: absolute;
-  top: 1.86rem;
-  right: calc(12.5% + 1.4rem);
-  left: calc(12.5% + 1.4rem);
-  height: 2px;
-  background: linear-gradient(90deg, #2f6f8f, #7b8b58, #b45f38);
+  margin: 1.25rem 0;
+  border: 1px solid #dce3ea;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .home-pipeline article {
   position: relative;
-  min-height: 150px;
-  padding-top: 3.25rem;
-  text-align: center;
+  min-height: 170px;
+  padding: 1rem;
+  background: #fbfcfd;
+  border-right: 1px solid #dce3ea;
+}
+
+.home-pipeline article:last-child {
+  border-right: 0;
 }
 
 .home-pipeline span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  z-index: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 3.7rem;
-  height: 3.7rem;
-  margin-bottom: 0;
-  border: 2px solid #d7e2e8;
-  border-radius: 50%;
-  background: #fff;
+  display: block;
+  margin-bottom: 0.65rem;
   color: #2f6f8f;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 900;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  box-shadow: 0 8px 22px rgba(22, 33, 46, 0.08);
-  transform: translateX(-50%);
 }
 
 .home-pipeline p {
@@ -338,49 +269,8 @@ body {
   font-weight: 700;
 }
 
-.home-principle-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  margin: 1.1rem 0 0;
-  border-top: 1px solid #dde5ec;
-}
-
-.home-principle-grid article {
-  position: relative;
-  display: grid;
-  grid-template-columns: clamp(2.8rem, 7vw, 4.8rem) minmax(0, 1fr);
-  gap: clamp(0.8rem, 2vw, 1.3rem);
-  padding: 1rem 0;
-  border-bottom: 1px solid #dde5ec;
-}
-
-.home-principle-grid article::before {
-  content: "\201C";
-  color: #b45f38;
-  font-family: Georgia, serif;
-  font-size: clamp(2.8rem, 8vw, 4.7rem);
-  font-weight: 700;
-  line-height: 0.85;
-}
-
-.home-principle-grid h3 {
-  margin: 0 0 0.28rem;
-  font-size: clamp(1rem, 1.8vw, 1.18rem);
-  line-height: 1.28;
-}
-
-.home-principle-grid p {
-  margin: 0;
-  color: #4b5b6d;
-  font-size: 0.9rem;
-  line-height: 1.58;
-}
-
 .home-section--future {
-  max-width: none;
   margin-top: 0.8rem;
-  margin-right: 0;
-  margin-left: 0;
   padding: clamp(2rem, 5vw, 3rem);
   border: 0;
   border-radius: 8px;
@@ -964,7 +854,7 @@ body {
     padding: 1.4rem;
     background:
       linear-gradient(180deg, rgba(9, 21, 31, 0.86), rgba(9, 21, 31, 0.68)),
-      url("/images/Image_20260424_215652.png") center / cover no-repeat;
+      url("/images/research/flapping_wing_robotics.jpg") center / cover no-repeat;
   }
 
   .home-section {
@@ -979,32 +869,16 @@ body {
 
   .home-pipeline {
     grid-template-columns: 1fr;
-    gap: 0.9rem;
-    padding: 0 0 0 1.25rem;
-  }
-
-  .home-pipeline::before {
-    top: 1.8rem;
-    right: auto;
-    bottom: 1.8rem;
-    left: 1.8rem;
-    width: 2px;
-    height: auto;
   }
 
   .home-pipeline article {
     min-height: 0;
-    padding: 0 0 0 4.25rem;
-    text-align: left;
+    border-right: 0;
+    border-bottom: 1px solid #dce3ea;
   }
 
-  .home-pipeline span {
-    left: 0;
-    transform: none;
-  }
-
-  .home-principle-grid article {
-    grid-template-columns: 2.5rem minmax(0, 1fr);
+  .home-pipeline article:last-child {
+    border-bottom: 0;
   }
 
   .news-item {
@@ -1038,27 +912,23 @@ html[data-theme="dark"] {
   .home-latest,
   .home-section,
   .home-pillar,
-  .home-principle-grid,
   .home-principle-grid article,
   .home-platform-note,
-  .home-pipeline {
+  .home-pipeline,
+  .home-pipeline article {
     border-color: #334252;
   }
 
   .home-pillar,
-  .home-platform-note {
+  .home-principle-grid article,
+  .home-platform-note,
+  .home-pipeline article {
     background: #1f2832;
   }
 
   .home-section__number,
   .home-pipeline span {
     color: #68a3c0;
-  }
-
-  .home-pipeline span {
-    border-color: #415365;
-    background: #111820;
-    box-shadow: none;
   }
 
   .home-question {
