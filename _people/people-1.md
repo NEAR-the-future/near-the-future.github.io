@@ -19,10 +19,10 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     </p>
 
     <p class="pi-links">
-      <a href="https://scholar.google.com/citations?user=PDP31hEAAAAJ&hl=en">Google Scholar</a> ·
-      <a href="/cv.pdf">CV</a> ·
-      <a href="mailto:guweibin@air.tsinghua.edu">Email</a> ·
-      <a href="http://www.linkedin.com/in/wgu938">LinkedIn</a> 
+      <a href="https://scholar.google.com/citations?user=PDP31hEAAAAJ&hl=en"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a>
+      <span class="pi-citation-badge">Citations on Scholar</span>
+      <a href="mailto:guweibin@air.tsinghua.edu"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+      <a href="http://www.linkedin.com/in/wgu938"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
     </p>
   </div>
 </div>

@@ -563,8 +563,42 @@
 }
 
 .pi-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.75rem;
   margin-top: 0.8rem;
   font-size: 0.9rem;
+}
+
+.pi-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pi-links a:hover {
+  text-decoration: underline;
+}
+
+.pi-links i {
+  font-size: 0.98rem;
+  line-height: 1;
+}
+
+.pi-citation-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.45rem;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  background: #eef5f9;
+  color: #36596c;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .people-gallery {
@@ -690,24 +724,18 @@
 }
 
 .person-card h3 {
-  display: inline;
   margin: 0;
   font-size: 1rem;
   line-height: 1.25;
 }
 
 .person-role {
-  display: inline;
-  margin: 0 0 0 1.15rem;
+  display: block;
+  margin: 0.16rem 0 0;
   color: #586678;
   font-size: 0.82rem;
   font-weight: 700;
   line-height: 1.35;
-  white-space: nowrap;
-}
-
-.person-role::before {
-  content: "";
 }
 
 .person-interest {
@@ -1247,6 +1275,11 @@ html[data-theme="dark"] {
   .news-date,
   .scholar-empty {
     color: #9eabb9;
+  }
+
+  .pi-citation-badge {
+    background: #273747;
+    color: #c8d8e4;
   }
 
   .join-near {
