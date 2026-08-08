@@ -104,6 +104,15 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     </div>
   </div>
 
+  <div class="person-card">
+    <img src="/images/people/people_placeholder_male.jpg" alt="Yufeng Wang">
+    <div class="person-card__body">
+      <h3>Yufeng Wang</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Reinforcement Learning, Simulator</p>
+    </div>
+  </div>
+
 </div>
 
 <h2>Alumni & Visitors</h2>
