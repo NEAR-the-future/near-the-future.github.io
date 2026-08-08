@@ -6,6 +6,50 @@ author_profile: true
 
 NEAR Lab is a multidisciplinary and multicultural team united by a shared vision for neuro-embodied adaptive robotics and a strong passion for building intelligent physical systems. We believe ambitious research is a team achievement: each of us stands on the shoulders of the group, and great success comes from shared curiosity, trust, rigor, and hands-on work.
 
+<section class="people-gallery" aria-label="NEAR Lab dinner gathering photo gallery">
+  <div class="people-gallery__track">
+    <img class="people-gallery__slide is-active" src="/images/people/dinner_gathering/735.jpg" alt="NEAR Lab dinner gathering photo 1">
+    <img class="people-gallery__slide" src="/images/people/dinner_gathering/IMG_0566.jpg" alt="NEAR Lab dinner gathering photo 2">
+    <img class="people-gallery__slide" src="/images/people/dinner_gathering/IMG_2760.jpg" alt="NEAR Lab dinner gathering photo 3">
+  </div>
+  <div class="people-gallery__dots" aria-label="Choose dinner gathering photo">
+    <button class="is-active" type="button" aria-label="Show photo 1"></button>
+    <button type="button" aria-label="Show photo 2"></button>
+    <button type="button" aria-label="Show photo 3"></button>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var gallery = document.querySelector(".people-gallery");
+  if (!gallery) return;
+
+  var slides = gallery.querySelectorAll(".people-gallery__slide");
+  var dots = gallery.querySelectorAll(".people-gallery__dots button");
+  var activeIndex = 0;
+
+  function showSlide(index) {
+    activeIndex = (index + slides.length) % slides.length;
+    slides.forEach(function (slide, i) {
+      slide.classList.toggle("is-active", i === activeIndex);
+    });
+    dots.forEach(function (dot, i) {
+      dot.classList.toggle("is-active", i === activeIndex);
+    });
+  }
+
+  dots.forEach(function (dot, i) {
+    dot.addEventListener("click", function () {
+      showSlide(i);
+    });
+  });
+
+  setInterval(function () {
+    showSlide(activeIndex + 1);
+  }, 4500);
+});
+</script>
+
 <h2>Principal Investigator</h2>
 
 <div class="pi-card">
@@ -78,7 +122,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
   </div>
 
   <div class="person-card">
-    <img src="/images/people/Yuxuan_Wang.jpg" alt="Yuxuan Wang">
+    <img src="/images/people/Yuxuan_Wang.png" alt="Yuxuan Wang">
     <div class="person-card__body">
       <h3>Yuxuan Wang</h3>
       <p class="person-role">Research Intern</p>
