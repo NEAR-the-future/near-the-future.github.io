@@ -2,6 +2,9 @@
 
 ## 2026-08-08
 
+- Updated the homepage hero to use `images/Image_20260424_215652.png`.
+- Reworked the homepage News block into a titled bullet-list format with single-line announcements.
+- Added quote styling to the homepage guiding question, enlarged section numbers, changed What We Value to a vertical list, redesigned How We Get There as a timeline, and normalized typography in the final vision section.
 - Refined the homepage layout so the main content spans the available browser width while retaining the default left NEAR Lab profile panel.
 - Adjusted homepage spacing, hero sizing, section-number scale, and card grids for a cleaner desktop/mobile layout.
 - Rebuilt the homepage as a compact NEAR Lab manifesto with a strong hero, five numbered sections, research pillars, Build-Understand-Learn-Adapt pipeline, principles, and final vision statement.

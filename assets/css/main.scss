@@ -84,7 +84,7 @@
   color: #fff;
   background:
     linear-gradient(90deg, rgba(9, 21, 31, 0.88), rgba(9, 21, 31, 0.66) 46%, rgba(9, 21, 31, 0.22)),
-    url("/images/research/flapping_wing_robotics.jpg") center / cover no-repeat;
+    url("/images/Image_20260424_215652.png") center / cover no-repeat;
 }
 
 .home-hero__content {
@@ -147,16 +147,34 @@
 }
 
 .home-latest {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem 0.65rem;
-  align-items: baseline;
   margin: 0 0 2rem;
-  padding: 0.8rem 0;
+  padding: 0.8rem 0 0.9rem;
   border-top: 1px solid #e1e6ec;
   border-bottom: 1px solid #e1e6ec;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.home-latest h2 {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: 0;
+  color: #122537;
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.home-latest ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.home-latest li {
+  margin: 0;
+  padding-left: 0.1rem;
 }
 
 .home-latest__date {
@@ -190,11 +208,12 @@
 }
 
 .home-section__number {
-  margin: 0.2rem 0 0;
+  margin: 0.04rem 0 0;
   color: #2f6f8f;
-  font-size: clamp(0.9rem, 1.35vw, 1.15rem);
+  font-size: clamp(1.35rem, 2.3vw, 1.95rem);
   font-weight: 900;
-  letter-spacing: 0.04em;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .home-section__lead {
@@ -203,23 +222,24 @@
 }
 
 .home-question {
-  margin: 1rem 0 0;
+  position: relative;
+  margin: 1.2rem 0 0;
+  padding: 0.85rem 0 0.85rem 1rem;
+  border-left: 4px solid #b45f38;
   color: #122537;
   font-size: clamp(1.25rem, 2.8vw, 1.9rem) !important;
   font-weight: 800;
   line-height: 1.2 !important;
 }
 
-.home-pillar-grid,
-.home-principle-grid {
+.home-pillar-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(0.8rem, 1.6vw, 1rem);
   margin: 1.4rem 0;
 }
 
-.home-pillar,
-.home-principle-grid article {
+.home-pillar {
   padding: clamp(0.95rem, 2vw, 1.2rem);
   border: 1px solid #e1e6ec;
   border-radius: 8px;
@@ -227,15 +247,13 @@
   box-shadow: 0 10px 24px rgba(22, 33, 46, 0.04);
 }
 
-.home-pillar h3,
-.home-principle-grid h3 {
+.home-pillar h3 {
   margin: 0 0 0.45rem;
   font-size: 0.98rem;
   line-height: 1.28;
 }
 
-.home-pillar p,
-.home-principle-grid p {
+.home-pillar p {
   margin: 0;
   color: #4b5b6d;
   font-size: 0.86rem;
@@ -256,33 +274,62 @@
 }
 
 .home-pipeline {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin: 1.25rem 0;
-  border: 1px solid #dce3ea;
-  border-radius: 8px;
-  overflow: hidden;
+  gap: clamp(0.9rem, 2vw, 1.4rem);
+  margin: 1.6rem 0 1.35rem;
+  padding-top: 3.1rem;
+}
+
+.home-pipeline::before {
+  content: "";
+  position: absolute;
+  top: 1.42rem;
+  right: 1.1rem;
+  left: 0.4rem;
+  height: 2px;
+  background: linear-gradient(90deg, #2f6f8f, #6b8b79 48%, #b45f38);
+}
+
+.home-pipeline::after {
+  content: "";
+  position: absolute;
+  top: calc(1.42rem - 5px);
+  right: 0.6rem;
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #b45f38;
+  border-right: 2px solid #b45f38;
+  transform: rotate(45deg);
 }
 
 .home-pipeline article {
   position: relative;
-  min-height: 170px;
-  padding: 1rem;
-  background: #fbfcfd;
-  border-right: 1px solid #dce3ea;
+  min-height: 0;
+  padding: 0;
 }
 
-.home-pipeline article:last-child {
-  border-right: 0;
+.home-pipeline article::before {
+  content: "";
+  position: absolute;
+  top: -2.18rem;
+  left: 0.2rem;
+  width: 0.82rem;
+  height: 0.82rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #2f6f8f;
+  box-shadow: 0 0 0 3px rgba(47, 111, 143, 0.18);
 }
 
 .home-pipeline span {
-  display: block;
-  margin-bottom: 0.65rem;
+  display: inline-block;
+  margin-bottom: 0.45rem;
   color: #2f6f8f;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 900;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -296,6 +343,36 @@
 .home-method-line {
   margin-top: 0.8rem;
   font-weight: 700;
+}
+
+.home-principle-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 1.2rem 0 0;
+  border-top: 1px solid #e1e6ec;
+}
+
+.home-principle-grid article {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.36fr) minmax(0, 1fr);
+  gap: clamp(0.8rem, 2vw, 1.5rem);
+  padding: 1rem 0;
+  border-bottom: 1px solid #e1e6ec;
+}
+
+.home-principle-grid h3 {
+  margin: 0;
+  color: #122537;
+  font-size: 0.98rem;
+  line-height: 1.32;
+}
+
+.home-principle-grid p {
+  margin: 0;
+  color: #4b5b6d;
+  font-size: 0.88rem;
+  line-height: 1.58;
 }
 
 .home-section--future {
@@ -314,10 +391,10 @@
 }
 
 .home-manifesto {
-  margin-top: 1.2rem;
-  font-size: clamp(1.15rem, 2.6vw, 1.65rem) !important;
-  font-weight: 800;
-  line-height: 1.28 !important;
+  margin-top: 1.1rem;
+  font-size: 0.96rem !important;
+  font-weight: 600;
+  line-height: 1.68 !important;
 }
 
 .home-signoff {
@@ -883,7 +960,7 @@
     padding: 1.4rem;
     background:
       linear-gradient(180deg, rgba(9, 21, 31, 0.86), rgba(9, 21, 31, 0.68)),
-      url("/images/research/flapping_wing_robotics.jpg") center / cover no-repeat;
+      url("/images/Image_20260424_215652.png") center / cover no-repeat;
   }
 
   .home-section {
@@ -898,6 +975,25 @@
 
   .home-pipeline {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding-top: 0;
+    padding-left: 1.8rem;
+  }
+
+  .home-pipeline::before {
+    top: 0.25rem;
+    bottom: 0.25rem;
+    left: 0.4rem;
+    width: 2px;
+    height: auto;
+  }
+
+  .home-pipeline::after {
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: -0.05rem;
+    transform: rotate(135deg);
   }
 
   .home-pillar-grid,
@@ -907,12 +1003,16 @@
 
   .home-pipeline article {
     min-height: 0;
-    border-right: 0;
-    border-bottom: 1px solid #dce3ea;
   }
 
-  .home-pipeline article:last-child {
-    border-bottom: 0;
+  .home-pipeline article::before {
+    top: 0.24rem;
+    left: -1.8rem;
+  }
+
+  .home-principle-grid article {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 
   .news-item {
@@ -946,17 +1046,14 @@ html[data-theme="dark"] {
   .home-latest,
   .home-section,
   .home-pillar,
+  .home-principle-grid,
   .home-principle-grid article,
-  .home-platform-note,
-  .home-pipeline,
-  .home-pipeline article {
+  .home-platform-note {
     border-color: #334252;
   }
 
   .home-pillar,
-  .home-principle-grid article,
-  .home-platform-note,
-  .home-pipeline article {
+  .home-platform-note {
     background: #1f2832;
   }
 
@@ -965,8 +1062,16 @@ html[data-theme="dark"] {
     color: #68a3c0;
   }
 
-  .home-question {
+  .home-latest h2,
+  .home-question,
+  .home-principle-grid h3 {
     color: #e6edf3;
+  }
+
+  .home-pipeline article::before {
+    border-color: #111820;
+    background: #68a3c0;
+    box-shadow: 0 0 0 3px rgba(104, 163, 192, 0.2);
   }
 
   .home-latest__date,
@@ -1031,8 +1136,8 @@ html[data-theme="dark"] {
   }
 
   @media (max-width: 640px) {
-    .home-pipeline article {
-      border-bottom-color: #334252;
+    .home-pipeline::before {
+      background: linear-gradient(180deg, #68a3c0, #7fa492 48%, #d1794d);
     }
   }
 }

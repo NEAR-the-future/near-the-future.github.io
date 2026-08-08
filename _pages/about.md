@@ -22,13 +22,15 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-latest">
-  <span class="news-badge">NEW!</span>
-  <span class="home-latest__date">Jun 2026</span>
-  <span>New paper comes out:
-    <a href="https://ieeexplore.ieee.org/document/11547162">"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</a>
-    in <em>IEEE Control Systems Letters</em>. Congratulations to all the coauthors!
-  </span>
+<section class="home-latest" aria-labelledby="home-news-title">
+  <h2 id="home-news-title">News</h2>
+  <ul>
+    <li>
+      <span class="news-badge">NEW!</span>
+      <span class="home-latest__date">Jun 2026</span>
+      <span>New paper comes out: <a href="https://ieeexplore.ieee.org/document/11547162">"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</a> in <em>IEEE Control Systems Letters</em>. Congratulations to all the coauthors!</span>
+    </li>
+  </ul>
 </section>
 
 <section class="home-section home-section--intro">
@@ -38,7 +40,7 @@ redirect_from:
     <p class="home-section__lead">
       NEAR is a robotics lab working at the intersection of embodied intelligence, bio-inspired robotics, dynamics, control, and machine learning.
     </p>
-    <p class="home-question">How can a robot's body become part of its intelligence?</p>
+    <p class="home-question">&ldquo;How can a robot's body become part of its intelligence?&rdquo;</p>
   </div>
 </section>
 
