@@ -2,6 +2,8 @@
 
 ## 2026-08-08
 
+- Updated People page team cards with rounded-square portraits and a name/position top row with responsibility below.
+- Removed bullet markers from the homepage News announcement list.
 - Added a timestamp query to the main stylesheet URL so browsers fetch the latest homepage CSS after deployment.
 - Strengthened homepage CSS for the requested hero image, larger section numbers, timeline layout, vertical values list, and matched section-05 paragraph style.
 - Updated the homepage hero to use `images/Image_20260424_215652.png`.
