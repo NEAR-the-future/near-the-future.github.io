@@ -110,7 +110,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 
 <ul class="alumni-list">
   <li><strong>Rim El Filali</strong> — Previous Master's Student; Machine Learning, Neuromorphic Computing, Dynamics and Control</li>
-  <li><strong>Chaolai Da</strong> — Previous Research Intern; Hardware, FPGA Simulation</li>
+  <li><strong>Dr. Chaolai Da</strong> — Previous Research Intern; Hardware, FPGA Simulation</li>
   <li><strong>Chun Zhang</strong> — Previous Research Intern; Neuromorphic Computing</li>
   <li><strong>Hengyang Li</strong> — Previous Research Intern; CFD/FSI Simulation, Prototyping</li>
   <!-- <li><strong>Xinge Huang</strong> — Previous Research Intern; Simulator</li> -->
