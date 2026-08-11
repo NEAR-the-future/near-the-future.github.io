@@ -13,7 +13,7 @@ author_profile: true
     <p class="featured-demo__kicker">Video Demo</p>
     <h2>The AirPulse Robot</h2>
     <p>
-      The AirPulse robot is a 26-gram butterfly-inspired flapping-wing platform, featuring onboard closed-loop control for tailless, two-winged flight. This featured demo highlights system components and early free-flight behavior.
+      The AirPulse robot is a 26-gram butterfly-inspired flapping-wing platform, featuring onboard closed-loop attitude control for tailless, two-winged flight. This featured demo highlights its system components and early untethered controlled flight behavior.
     </p>
     <p class="featured-demo__links">
       <a href="https://arxiv.org/abs/2602.06811">arXiv preprint</a>
