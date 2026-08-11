@@ -121,7 +121,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
   <li><strong><a href="https://www.linkedin.com/in/rimelfilali/">Rim El Filali</a></strong> — Master's Alumnus | Machine Learning, Neuromorphic Computing, Dynamics and Control</li>
   <li><strong><a href="https://www.linkedin.com/in/hengyang0918/">Hengyang Li</a></strong> — Former Research Intern | CFD/FSI Simulation, Prototyping | Now at <a href="https://www.comac.cc/">COMAC</a></li>
   <li><strong>Dr. Chaolai Da</strong> — Former Research Intern | Hardware, FPGA Simulation | Now Postdoc at <a href="https://iaii.cas.cn/">IAII, CAS</a></li>
-  <li><strong>Chun Zhang</strong> — Former Research Intern | Neuromorphic Computing</li>
+  <li><strong>Chun Zhang</strong> — Former Research Intern | Machine Learning, Neuromorphic Computing</li>
   <li><strong>Yuhe Ding</strong> — Former Research Intern | Embedded Systems, Dynamics and Control, Prototyping | Now MSc student at <a href="https://www.iscas.ac.cn/">ISCAS</a></li>
   <li><strong>Xiaofei Shi</strong> — Former Research Intern | Mechanical Design, Prototyping, Drone Piloting</li>
 </ul>
