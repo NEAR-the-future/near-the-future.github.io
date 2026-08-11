@@ -118,12 +118,12 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 <h2>Alumni</h2>
 
 <ul class="alumni-list">
-  <li><strong><a href="https://www.linkedin.com/in/rimelfilali/">Rim El Filali</a></strong> — Previous Master's Student; Machine Learning, Neuromorphic Computing, Dynamics and Control</li>
-  <li><strong>Hengyang Li</strong> — Previous Research Intern; CFD/FSI Simulation, Prototyping; Now working at <a href="https://www.comac.cc/">COMAC</a></li>
-  <li><strong>Dr. Chaolai Da</strong> — Previous Research Intern; Hardware, FPGA Simulation</li>
-  <li><strong>Chun Zhang</strong> — Previous Research Intern; Neuromorphic Computing</li>
-  <li><strong>Yuhe Ding</strong> — Previous Research Intern; Embedded Systems, Dynamics and Control, Prototyping; Now MSc student at <a href="https://www.iscas.ac.cn/">ISCAS</a></li>
-  <li><strong>Xiaofei Shi</strong> — Previous Research Intern; Mechanical Design, Prototyping, Drone Piloting</li>
+  <li><strong><a href="https://www.linkedin.com/in/rimelfilali/">Rim El Filali</a></strong> — Master's Alumnus | Machine Learning, Neuromorphic Computing, Dynamics and Control</li>
+  <li><strong>Hengyang Li</strong> — Former Research Intern | CFD/FSI Simulation, Prototyping | Now at <a href="https://www.comac.cc/">COMAC</a></li>
+  <li><strong>Dr. Chaolai Da</strong> — Former Research Intern | Hardware, FPGA Simulation</li>
+  <li><strong>Chun Zhang</strong> — Former Research Intern | Neuromorphic Computing</li>
+  <li><strong>Yuhe Ding</strong> — Former Research Intern | Embedded Systems, Dynamics and Control, Prototyping; Now MSc student at <a href="https://www.iscas.ac.cn/">ISCAS</a></li>
+  <li><strong>Xiaofei Shi</strong> — Former Research Intern | Mechanical Design, Prototyping, Drone Piloting</li>
 </ul>
 
 <h2>Gallery</h2>
