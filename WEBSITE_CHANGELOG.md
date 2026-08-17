@@ -2,6 +2,7 @@
 
 ## 2026-08-17
 
+- Replaced preprint detail-page placeholder images with original figures extracted from the arXiv source bundles.
 - Added a Preprints section to Publications with detail pages for arXiv:2606.15317, arXiv:2605.19430, and arXiv:2602.06811.
 
 ## 2026-08-08

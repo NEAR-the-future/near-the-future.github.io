@@ -24,9 +24,9 @@ arxivurl: "https://arxiv.org/abs/2606.15317"
 </section>
 
 <figure class="paper-figure paper-figure--wide">
-  <img src="/images/research/modeling_control.jpg" alt="Modeling and control research theme illustration">
+  <img src="/images/publications/crrkl_framework.png" alt="CR-RKL covariance regulation and recursive Koopman learning framework">
   <figcaption>
-    The work targets online model adaptation for uncertain nonlinear dynamics, where a learned lifted predictor must remain useful as the system changes.
+    Original paper figure illustrating covariance windup, vanishing gain, trace-normalized uncertainty, and the CR-RKL recursive update pipeline.
   </figcaption>
 </figure>
 
@@ -47,6 +47,13 @@ Robotic systems and autonomous platforms often operate under changing payloads, 
 - CR-RKL maintains numerically stable online learning in settings where conventional recursive updates can become ill-conditioned.
 - Constant-trace normalization preserves the geometric structure of uncertainty while preventing covariance explosion.
 - The approach improves online modeling and supports reliable MPC tracking under uncertain, time-varying dynamics.
+
+<div class="paper-figure-grid">
+  <figure class="paper-figure">
+    <img src="/images/publications/crrkl_fwmav_online_modeling.png" alt="CR-RKL online modeling benchmark for the flapping-wing robot">
+    <figcaption>Original paper figure comparing online Koopman modeling performance for the flapping-wing robot across same-regime and cross-regime flight data.</figcaption>
+  </figure>
+</div>
 
 ## Citation
 

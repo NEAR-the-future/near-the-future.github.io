@@ -24,9 +24,9 @@ arxivurl: "https://arxiv.org/abs/2602.06811"
 </section>
 
 <figure class="paper-figure paper-figure--wide">
-  <img src="/images/research/flapping_wing_robotics.jpg" alt="Butterfly-inspired flapping-wing robot research theme illustration">
+  <img src="/images/publications/airpulse_biomimetic_design.png" alt="Morphological and structural design of the AirPulse robot">
   <figcaption>
-    AirPulse focuses on autonomous tailless flapping flight, integrating lightweight mechanical design, onboard sensing, and attitude control.
+    Original paper figure showing the AirPulse robot's biomimetic morphology, mass distribution, onboard electronics, actuation geometry, and venation-inspired wing design.
   </figcaption>
 </figure>
 
@@ -46,6 +46,13 @@ Butterflies achieve agile flight with broad compliant wings and low-frequency ac
 - AirPulse demonstrates stable untethered flapping motion with onboard feedback control.
 - STAR provides a control interface for modulating flapping kinematics without disrupting the mean wingbeat frequency.
 - The platform offers an experimentally validated basis for stabilizing strongly oscillatory, low-mass bio-inspired robots in sensitive or confined environments.
+
+<div class="paper-figure-grid">
+  <figure class="paper-figure">
+    <img src="/images/publications/airpulse_control.png" alt="AirPulse free-flight dynamics and closed-loop control results">
+    <figcaption>Original paper figure summarizing free-flight dynamics, climbing and turning maneuvers, attitude tracking, and onboard power measurements.</figcaption>
+  </figure>
+</div>
 
 ## Citation
 

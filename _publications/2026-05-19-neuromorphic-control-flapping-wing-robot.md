@@ -26,9 +26,9 @@ codeurl: "https://anonymous.4open.science/r/Espikify-76E3/"
 </section>
 
 <figure class="paper-figure paper-figure--wide">
-  <img src="/images/research/neuromorphic_systems.jpg" alt="Neuromorphic systems research theme illustration">
+  <img src="/images/publications/neuromorphic_control_teaser.png" alt="Neuromorphic control framework, robot hardware, and flight demonstration">
   <figcaption>
-    Neuromorphic control is investigated as a route toward low-power intelligence for small robots where computation, sensing, and actuation budgets are tightly coupled.
+    Original paper teaser figure showing the data-to-deployment workflow, the butterfly-inspired FWMAV hardware, and untethered flight demonstrations.
   </figcaption>
 </figure>
 
@@ -48,6 +48,13 @@ Small flapping-wing robots face strict limits in payload, power, and onboard com
 - The SNN-based controller reduces reported inference latency from 1059 us to 680 us relative to an ANN baseline.
 - The SNN-based controller reduces reported inference power from 0.033 W to 0.027 W relative to the same baseline.
 - The experiments demonstrate fully onboard neuromorphic control for autonomous flapping-wing flight under stringent SWaP constraints.
+
+<div class="paper-figure-grid">
+  <figure class="paper-figure">
+    <img src="/images/publications/neuromorphic_control_latency_power.png" alt="Latency and power comparison for SNN, ANN, and event-driven SNN inference">
+    <figcaption>Original paper figure comparing inference latency and power on resource-constrained hardware.</figcaption>
+  </figure>
+</div>
 
 ## Citation
 
