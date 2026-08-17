@@ -1,5 +1,9 @@
 # Website Changelog
 
+## 2026-08-17
+
+- Added a Preprints section to Publications with detail pages for arXiv:2606.15317, arXiv:2605.19430, and arXiv:2602.06811.
+
 ## 2026-08-08
 
 - Fixed inherited paragraph bottom margins in People page team cards so role and skills appear as a compact stack.
