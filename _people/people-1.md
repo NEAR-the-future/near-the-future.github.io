@@ -50,14 +50,14 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     </div>
   </div>
 
-  <div class="person-card">
+  <!-- <div class="person-card">
     <img src="/images/people/Lian_Liu.jpg" alt="Lian Liu">
     <div class="person-card__body">
       <h3>Lian Liu</h3>
       <p class="person-role">Research Intern</p>
       <p class="person-interest">Mechanical Design, CFD Simulation, Prototyping, Drone Piloting</p>
     </div>
-  </div>
+  </div> -->
 
   <div class="person-card">
     <img src="/images/people/Chen_Yang.png" alt="Chen Yang">
@@ -118,12 +118,13 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 <h2>Alumni</h2>
 
 <ul class="alumni-list">
+  <li><strong>Lian Liu</strong> — Former Research Intern | Mechanical Design, CFD Simulation, Prototyping, Drone Piloting | Now PhD candidate at <a href="https://english.bit.edu.cn/">BIT</a></li>
   <li><strong><a href="https://www.linkedin.com/in/rimelfilali/">Rim El Filali</a></strong> — Master's Alumnus | Machine Learning, Neuromorphic Computing, Dynamics and Control</li>
   <li><strong><a href="https://www.linkedin.com/in/hengyang0918/">Hengyang Li</a></strong> — Former Research Intern | Aerodynamics, CFD/FSI Simulation, Prototyping | Now at <a href="https://www.comac.cc/">COMAC</a></li>
   <li><strong>Dr. Chaolai Da</strong> — Former Research Intern | Hardware, FPGA Simulation, Machine Learning | Now Postdoc at <a href="https://iaii.cas.cn/">IAII, CAS</a></li>
   <li><strong>Chun Zhang</strong> — Former Research Intern | Machine Learning, Neuromorphic Computing</li>
-  <li><strong>Yuhe Ding</strong> — Former Research Intern | Embedded Systems, Dynamics and Control, Prototyping | Now MSc student at <a href="https://www.iscas.ac.cn/">ISCAS</a></li>
   <li><strong>Xiaofei Shi</strong> — Former Research Intern | Mechanical Design, Prototyping, Drone Piloting</li>
+  <li><strong>Yuhe Ding</strong> — Former Research Intern | Embedded Systems, Dynamics and Control, Prototyping | Now MSc student at <a href="https://www.iscas.ac.cn/">ISCAS</a></li>
 </ul>
 
 <h2>Gallery</h2>
