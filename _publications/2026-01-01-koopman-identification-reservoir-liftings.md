@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2026-01-01-koopman-identification-reservoir-liftings
 excerpt: "Koopman identification of nonlinear systems using reservoir liftings."
 date: 2026-06-01
-venue: "IEEE Control Systems Letters (Accepted for presentation at IEEE CDC 2026)"
+venue: "IEEE Control Systems Letters (accepted for presentation at IEEE CDC 2026)"
 authors: "Weibin Gu, Chen Yang, and Lu Shi"
 paperurl: "https://ieeexplore.ieee.org/document/11547162"
 arxivurl: "https://arxiv.org/abs/2605.04917"
