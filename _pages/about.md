@@ -28,7 +28,7 @@ redirect_from:
     <li>
       <span class="news-badge">NEW!</span>
       <span class="home-latest__date">Jun 2026</span>
-      <span>New paper comes out: <a href="https://ieeexplore.ieee.org/document/11547162">"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</a> in <em>IEEE Control Systems Letters</em>. Congratulations to all the coauthors!</span>
+      <span>Our paper "Koopman Identification of Nonlinear Systems via Reservoir Liftings" is out in IEEE Control Systems Letters and accepted for presentation at IEEE CDC 2026. Congrats to all coauthors!</span>
     </li>
   </ul>
 </section>
