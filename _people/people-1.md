@@ -113,6 +113,15 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     </div>
   </div>
 
+  <div class="person-card">
+    <img src="/images/people/people_placeholder_male.jpg" alt="Yuan Cao">
+    <div class="person-card__body">
+      <h3>Yuan Cao</h3>
+      <p class="person-role">Research Intern</p>
+      <p class="person-interest">Dynamics and Control, Machine Learning</p>
+    </div>
+  </div>
+
 </div>
 
 <h2>Alumni</h2>
