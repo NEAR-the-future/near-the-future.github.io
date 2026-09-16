@@ -21,3 +21,21 @@ author_profile: true
     </p>
   </div>
 </section>
+
+<section class="featured-demo">
+  <div class="featured-demo__media">
+    <iframe src="https://drive.google.com/file/d/1xTRBgWUYzSzPMmz2Gtlh-DfO-Z2Iks4q/preview" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+
+  <div class="featured-demo__body">
+    <p class="featured-demo__kicker">CoRL 2026 Visual Abstract</p>
+    <h2>Spiking Neural Network Control of a Flapping-Wing Robot on Resource-Constrained Hardware</h2>
+    <p>
+      This visual abstract summarizes our CoRL 2026 work on fully onboard spiking-neural-network state estimation and control for a lightweight flapping-wing robot running on resource-constrained hardware.
+    </p>
+    <p class="featured-demo__links">
+      <a href="https://arxiv.org/abs/2605.19430">arXiv preprint</a>
+      <!-- <a href="https://drive.google.com/file/d/1xTRBgWUYzSzPMmz2Gtlh-DfO-Z2Iks4q/view?usp=sharing">Open video</a> -->
+    </p>
+  </div>
+</section>

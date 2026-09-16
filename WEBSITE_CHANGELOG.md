@@ -1,5 +1,10 @@
 # Website Changelog
 
+## 2026-09-17
+
+- Added the CoRL 2026 visual abstract video to the Research page below the AirPulse demo.
+- Added a cached Google Scholar citation data file and scheduled updater workflow for the People page citation badge.
+
 ## 2026-08-17
 
 - Replaced preprint detail-page placeholder images with original figures extracted from the arXiv source bundles.
