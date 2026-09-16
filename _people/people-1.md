@@ -86,14 +86,14 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     </div>
   </div>
 
-  <div class="person-card">
+  <!-- <div class="person-card">
     <img src="/images/people/Ruiyuan_Bai.png" alt="Ruiyuan Bai">
     <div class="person-card__body">
       <h3>Ruiyuan Bai</h3>
       <p class="person-role">Research Intern</p>
       <p class="person-interest">Embedded Systems, Hardware</p>
     </div>
-  </div>
+  </div> -->
 
   <div class="person-card">
     <img src="/images/people/people_placeholder_male.jpg" alt="Junkun Jiang">
@@ -127,6 +127,7 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
 <h2>Alumni</h2>
 
 <ul class="alumni-list">
+  <li><strong>Ruiyuan Bai</strong> — Former Research Intern | Embedded Systems, Hardware | Now MSc student at University of Bristol</li>
   <li><strong>Lian Liu</strong> — Former Research Intern | Mechanical Design, CFD Simulation, Prototyping, Drone Piloting | Now PhD candidate at <a href="https://english.bit.edu.cn/">BIT</a></li>
   <li><strong><a href="https://www.linkedin.com/in/rimelfilali/">Rim El Filali</a></strong> — Master's Alumnus | Machine Learning, Neuromorphic Computing, Dynamics and Control | Now at Lumisition Robotics</li>
   <li><strong><a href="https://www.linkedin.com/in/hengyang0918/">Hengyang Li</a></strong> — Former Research Intern | Aerodynamics, CFD/FSI Simulation, Prototyping | Now at <a href="https://www.comac.cc/">COMAC</a></li>
