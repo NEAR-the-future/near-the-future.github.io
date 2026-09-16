@@ -29,7 +29,7 @@ author_profile: true
 
   <div class="featured-demo__body">
     <p class="featured-demo__kicker">Visual Abstract</p>
-    <h2>SNN Flapping-Wing Control via Imitation Learning</h2>
+    <h2>SNN Control via Imitation Learning for Flapping-wing Flight</h2>
     <p>
       This visual abstract summarizes our CoRL 2026 work on fully onboard spiking-neural-network state estimation and control for a lightweight flapping-wing robot running on resource-constrained hardware.
     </p>
