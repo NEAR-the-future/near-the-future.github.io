@@ -28,11 +28,11 @@ redirect_from:
     <li>
       <span class="news-badge">NEW!</span>
       <span class="home-latest__date">Sep 2026</span>
-      <span>Our paper "Spiking Neural Network Control of a Flapping-Wing Robot on Resource-Constrained Hardware" is accepted at CoRL 2026. Kudos to Rim and Chenrui!</span>
+      <span>Our paper <strong>"Spiking Neural Network Control of a Flapping-Wing Robot on Resource-Constrained Hardware"</strong> is accepted at <strong>CoRL 2026</strong>. Kudos to Rim and Chenrui!</span>
     </li>
     <li>
       <span class="home-latest__date">Jun 2026</span>
-      <span>Our paper on "Koopman Identification of Nonlinear Systems via Reservoir Liftings" is out in IEEE Control Systems Letters and accepted for IEEE CDC 2026. Congrats to all coauthors!</span>
+      <span>Our paper on <strong>"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</strong> is out in <strong>IEEE Control Systems Letters</strong> and accepted for <strong>IEEE CDC 2026</strong>. Congrats to all coauthors!</span>
     </li>
   </ul>
 </section>
