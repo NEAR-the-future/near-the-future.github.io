@@ -1,11 +1,11 @@
 ---
-title: "Neuromorphic Control of a Flapping-Wing Robot on Resource-Constrained Hardware"
+title: "Spiking Neural Network Control of a Flapping-Wing Robot on Resource-Constrained Hardware"
 collection: publications
-category: preprints
+category: conferences
 permalink: /publication/2026-05-19-neuromorphic-control-flapping-wing-robot
 excerpt: "Neuromorphic control for flapping-wing robots on compact, resource-constrained hardware."
 date: 2026-05-19
-venue: "arXiv preprint arXiv:2605.19430"
+venue: "10th Annual Conference on Robot Learning"
 authors: "Rim El Filali, Chenrui Feng, Chao Gao, and Weibin Gu"
 paperurl: "https://arxiv.org/abs/2605.19430"
 arxivurl: "https://arxiv.org/abs/2605.19430"
