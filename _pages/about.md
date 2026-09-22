@@ -32,7 +32,7 @@ redirect_from:
     </li>
     <li>
       <span class="home-latest__date">Jun 2026</span>
-      <span>Our paper <strong>"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</strong> is out in <strong>IEEE Control Systems Letters</strong> and accepted for <strong>IEEE CDC 2026</strong>. Congrats to all coauthors!</span>
+      <span>Our paper <strong>"Koopman Identification of Nonlinear Systems via Reservoir Liftings"</strong> is out in <strong>IEEE Control Systems Letters</strong> and accepted for presentation at <strong>IEEE CDC 2026</strong>. Congrats to all coauthors!</span>
     </li>
   </ul>
 </section>
