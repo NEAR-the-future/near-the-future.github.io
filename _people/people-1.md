@@ -77,14 +77,14 @@ NEAR Lab is a multidisciplinary and multicultural team united by a shared vision
     </div>
   </div>
 
-  <div class="person-card">
+  <!-- <div class="person-card">
     <img src="/images/people/Yuxuan_Wang.png" alt="Yuxuan Wang">
     <div class="person-card__body">
       <h3>Yuxuan Wang</h3>
       <p class="person-role">Research Intern</p>
       <p class="person-interest">Machine Learning, Butterfly Morphology, Prototyping</p>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div class="person-card">
     <img src="/images/people/Ruiyuan_Bai.png" alt="Ruiyuan Bai">
