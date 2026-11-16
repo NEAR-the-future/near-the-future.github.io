@@ -1,7 +1,7 @@
 ---
 title: "Covariance-Regulated Recursive Koopman Learning for Nonlinear Systems with Uncertain Time-Varying Dynamics"
 collection: publications
-category: preprints
+category: manuscripts
 permalink: /publication/2026-06-13-covariance-regulated-recursive-koopman-learning
 excerpt: "Recursive Koopman learning with covariance regulation for uncertain, time-varying nonlinear systems."
 date: 2026-06-13

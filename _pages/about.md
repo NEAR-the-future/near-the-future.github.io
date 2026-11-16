@@ -27,6 +27,10 @@ redirect_from:
   <ul>
     <li>
       <span class="news-badge">NEW!</span>
+      <span class="home-latest__date">Nov 2026</span>
+      <span>Our paper <strong>"Covariance-Regulated Recursive Koopman Learning for Nonlinear Systems with Uncertain Time-Varying Dynamics"</strong> is out in <strong>IEEE Robotics and Automation Letters</strong>. Congrats to all coauthors!</span>
+    </li>
+    <li>
       <span class="home-latest__date">Sep 2026</span>
       <span>Our paper <strong>"Spiking Neural Network Control of a Flapping-Wing Robot on Resource-Constrained Hardware"</strong> is accepted at <strong>CoRL 2026</strong>. Kudos to Rim and Chenrui!</span>
     </li>
