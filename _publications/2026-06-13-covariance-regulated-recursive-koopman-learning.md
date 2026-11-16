@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2026-06-13-covariance-regulated-recursive-koopman-learning
 excerpt: "Recursive Koopman learning with covariance regulation for uncertain, time-varying nonlinear systems."
 date: 2026-06-13
-venue: "arXiv preprint arXiv:2606.15317"
+venue: "IEEE Robotics and Automation Letters"
 authors: "Weibin Gu, Chen Yang, Lu Shi, and Chao Gao"
 paperurl: "https://arxiv.org/abs/2606.15317"
 arxivurl: "https://arxiv.org/abs/2606.15317"
